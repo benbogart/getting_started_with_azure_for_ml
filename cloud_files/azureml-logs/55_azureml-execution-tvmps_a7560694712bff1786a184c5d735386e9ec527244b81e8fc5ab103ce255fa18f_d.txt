@@ -1,0 +1,614 @@
+2021-04-20T04:53:48Z Successfully mounted a/an Blobfuse File System at /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore
+2021-04-20T04:53:49Z Failed to start nvidia-fabricmanager due to exit status 5 with output Failed to start nvidia-fabricmanager.service: Unit nvidia-fabricmanager.service not found.
+. Please ignore this if the GPUs don't utilize NVIDIA® NVLink® switches.
+2021-04-20T04:53:49Z Starting output-watcher...
+2021-04-20T04:53:49Z IsDedicatedCompute == True, won't poll for Low Pri Preemption
+2021-04-20T04:53:50Z Executing 'Copy ACR Details file' on 10.0.0.4
+2021-04-20T04:53:50Z Copy ACR Details file succeeded on 10.0.0.4. Output: 
+>>>   
+>>>   
+Login Succeeded
+Using default tag: latest
+latest: Pulling from azureml/azureml_75dbdd65efabd34ac9f6ccab5f74b4b0
+4007a89234b4: Pulling fs layer
+5dfa26c6b9c9: Pulling fs layer
+0ba7bf18aa40: Pulling fs layer
+4c6ec688ebe3: Pulling fs layer
+574f361512d6: Pulling fs layer
+db4d1e2d7079: Pulling fs layer
+e544ee0f522d: Pulling fs layer
+c655136086be: Pulling fs layer
+2ec37f44090c: Pulling fs layer
+5fba3bd4a2c4: Pulling fs layer
+7e0ea9d0a1ab: Pulling fs layer
+da005f826951: Pulling fs layer
+f1a024a7664e: Pulling fs layer
+4cb089fddd83: Pulling fs layer
+7cfd8325b2ec: Pulling fs layer
+23efb016dfd0: Pulling fs layer
+841f0fa8d0a3: Pulling fs layer
+1d6ec8fef32b: Pulling fs layer
+c655136086be: Waiting
+2ec37f44090c: Waiting
+5fba3bd4a2c4: Waiting
+574f361512d6: Waiting
+4c6ec688ebe3: Waiting
+7e0ea9d0a1ab: Waiting
+23efb016dfd0: Waiting
+db4d1e2d7079: Waiting
+841f0fa8d0a3: Waiting
+e544ee0f522d: Waiting
+1d6ec8fef32b: Waiting
+f1a024a7664e: Waiting
+4cb089fddd83: Waiting
+7cfd8325b2ec: Waiting
+da005f826951: Waiting
+0ba7bf18aa40: Download complete
+4c6ec688ebe3: Download complete
+5dfa26c6b9c9: Verifying Checksum
+5dfa26c6b9c9: Download complete
+db4d1e2d7079: Verifying Checksum
+db4d1e2d7079: Download complete
+4007a89234b4: Verifying Checksum
+4007a89234b4: Download complete
+574f361512d6: Verifying Checksum
+574f361512d6: Download complete
+e544ee0f522d: Verifying Checksum
+e544ee0f522d: Download complete
+5fba3bd4a2c4: Verifying Checksum
+5fba3bd4a2c4: Download complete
+2ec37f44090c: Verifying Checksum
+2ec37f44090c: Download complete
+4007a89234b4: Pull complete
+da005f826951: Download complete
+5dfa26c6b9c9: Pull complete
+c655136086be: Verifying Checksum
+c655136086be: Download complete
+0ba7bf18aa40: Pull complete
+7e0ea9d0a1ab: Verifying Checksum
+7e0ea9d0a1ab: Download complete
+4c6ec688ebe3: Pull complete
+7cfd8325b2ec: Verifying Checksum
+7cfd8325b2ec: Download complete
+f1a024a7664e: Verifying Checksum
+f1a024a7664e: Download complete
+23efb016dfd0: Verifying Checksum
+23efb016dfd0: Download complete
+1d6ec8fef32b: Verifying Checksum
+1d6ec8fef32b: Download complete
+841f0fa8d0a3: Verifying Checksum
+841f0fa8d0a3: Download complete
+4cb089fddd83: Verifying Checksum
+4cb089fddd83: Download complete
+574f361512d6: Pull complete
+db4d1e2d7079: Pull complete
+e544ee0f522d: Pull complete
+c655136086be: Pull complete
+2ec37f44090c: Pull complete
+5fba3bd4a2c4: Pull complete
+7e0ea9d0a1ab: Pull complete
+da005f826951: Pull complete
+f1a024a7664e: Pull complete
+4cb089fddd83: Pull complete
+7cfd8325b2ec: Pull complete
+23efb016dfd0: Pull complete
+841f0fa8d0a3: Pull complete
+1d6ec8fef32b: Pull complete
+Digest: sha256:5042e7b6022a0e175950711f563a70b84f35d88cae002a569f502b498e2c89af
+Status: Downloaded newer image for viennaglobal.azurecr.io/azureml/azureml_75dbdd65efabd34ac9f6ccab5f74b4b0:latest
+viennaglobal.azurecr.io/azureml/azureml_75dbdd65efabd34ac9f6ccab5f74b4b0:latest
+2021-04-20T04:54:04Z Check if container recycling_1618894172_db9617d5_sidecar already exist exited with 0, 
+
+1661e76b4e902bc4daac64668e0d61a05d1832a8eabe7f3e0a2216efc29621f3
+2021-04-20T04:54:10Z Parameters for containerSetup task: useDetonationChamer set to false and sshRequired set to false 
+2021-04-20T04:54:10Z containerSetup task cmd: [/mnt/batch/tasks/startup/wd/hosttools -task=containerSetup -traceContext=00-72f1b04c80b8bc6d610ec8d594aff4cb-ac3e418ff6f2e11e-01 -sshRequired=false] 
+2021/04/20 04:54:10 Starting App Insight Logger for task:  containerSetup
+2021/04/20 04:54:10 Version: 3.0.01565.0005 Branch: 2021-04-09 Commit: d52cce8
+2021/04/20 04:54:10 Entered ContainerSetupTask - Preparing infiniband
+2021/04/20 04:54:10 Starting infiniband setup
+2021/04/20 04:54:10 VMSize: standard_nc6_promo, Host: runtime-gen1-ubuntu18, Container: ubuntu-16.04
+2021/04/20 04:54:10 VMSize: standard_nc6_promo, Host: runtime-gen1-ubuntu18, Container: ubuntu-16.04
+2021-04-20T04:54:10Z VMSize: standard_nc6_promo, Host: runtime-gen1-ubuntu18, Container: ubuntu-16.04
+2021/04/20 04:54:10 /dev/infiniband/uverbs0 found (implying presence of InfiniBand)?: false
+2021/04/20 04:54:10 Not setting up Infiniband in Container
+2021/04/20 04:54:10 Not setting up Infiniband in Container
+2021-04-20T04:54:10Z Not setting up Infiniband in Container
+2021/04/20 04:54:10 sshd inside container not required for job, skipping setup.
+2021/04/20 04:54:11 All App Insights Logs was send successfully
+2021/04/20 04:54:11 App Insight Client has already been closed
+2021/04/20 04:54:11 Not exporting to RunHistory as the exporter is either stopped or there is no data.
+Stopped: false
+OriginalData: 1
+FilteredData: 0.
+2021-04-20T04:54:11Z Starting docker container succeeded.
+2021-04-20T04:54:28Z Executing 'Copy ACR Details file' on 10.0.0.4
+2021-04-20T04:54:28Z Copy ACR Details file succeeded on 10.0.0.4. Output: 
+>>>   
+>>>   
+Login Succeeded
+Using default tag: latest
+latest: Pulling from azureml/azureml_9764bba479e15d5cd8037bf1d3197616
+92dc2a97ff99: Pulling fs layer
+be13a9d27eb8: Pulling fs layer
+c8299583700a: Pulling fs layer
+9d97ffe5b9f7: Pulling fs layer
+4550333a1908: Pulling fs layer
+fe9773ea2658: Pulling fs layer
+bf4e099145d4: Pulling fs layer
+830f5c74da58: Pulling fs layer
+c6b189607af1: Pulling fs layer
+23e9202e08d5: Pulling fs layer
+5674ead1c0b5: Pulling fs layer
+0ba9c1f964ed: Pulling fs layer
+78748714eba8: Pulling fs layer
+cf1c919d3d2e: Pulling fs layer
+a0b673088430: Pulling fs layer
+c6595752a3b1: Pulling fs layer
+2924ad31fa80: Pulling fs layer
+2cbf34a5c7b5: Pulling fs layer
+665634165c35: Pulling fs layer
+5ca2f61f1678: Pulling fs layer
+aeecbd6531ec: Pulling fs layer
+65b174bb7eae: Pulling fs layer
+bfec799a5322: Pulling fs layer
+3fec98c0e749: Pulling fs layer
+e8525b23711b: Pulling fs layer
+9b504cb41824: Pulling fs layer
+6c57e94aaa53: Pulling fs layer
+0b6f70502497: Pulling fs layer
+1046b810be96: Pulling fs layer
+08336a58654b: Pulling fs layer
+0ba9c1f964ed: Waiting
+bf4e099145d4: Waiting
+65b174bb7eae: Waiting
+78748714eba8: Waiting
+bfec799a5322: Waiting
+830f5c74da58: Waiting
+3fec98c0e749: Waiting
+cf1c919d3d2e: Waiting
+e8525b23711b: Waiting
+a0b673088430: Waiting
+9b504cb41824: Waiting
+c6595752a3b1: Waiting
+9d97ffe5b9f7: Waiting
+6c57e94aaa53: Waiting
+2924ad31fa80: Waiting
+2cbf34a5c7b5: Waiting
+5ca2f61f1678: Waiting
+0b6f70502497: Waiting
+665634165c35: Waiting
+aeecbd6531ec: Waiting
+1046b810be96: Waiting
+c6b189607af1: Waiting
+08336a58654b: Waiting
+4550333a1908: Waiting
+23e9202e08d5: Waiting
+5674ead1c0b5: Waiting
+fe9773ea2658: Waiting
+be13a9d27eb8: Verifying Checksum
+be13a9d27eb8: Download complete
+c8299583700a: Verifying Checksum
+c8299583700a: Download complete
+9d97ffe5b9f7: Verifying Checksum
+9d97ffe5b9f7: Download complete
+92dc2a97ff99: Verifying Checksum
+92dc2a97ff99: Download complete
+4550333a1908: Verifying Checksum
+4550333a1908: Download complete
+fe9773ea2658: Verifying Checksum
+fe9773ea2658: Download complete
+830f5c74da58: Download complete
+23e9202e08d5: Download complete
+92dc2a97ff99: Pull complete
+be13a9d27eb8: Pull complete
+c8299583700a: Pull complete
+9d97ffe5b9f7: Pull complete
+4550333a1908: Pull complete
+fe9773ea2658: Pull complete
+c6b189607af1: Verifying Checksum
+c6b189607af1: Download complete
+bf4e099145d4: Verifying Checksum
+bf4e099145d4: Download complete
+78748714eba8: Verifying Checksum
+78748714eba8: Download complete
+cf1c919d3d2e: Verifying Checksum
+cf1c919d3d2e: Download complete
+5674ead1c0b5: Verifying Checksum
+5674ead1c0b5: Download complete
+c6595752a3b1: Verifying Checksum
+c6595752a3b1: Download complete
+2924ad31fa80: Verifying Checksum
+2924ad31fa80: Download complete
+a0b673088430: Verifying Checksum
+a0b673088430: Download complete
+665634165c35: Verifying Checksum
+665634165c35: Download complete
+2cbf34a5c7b5: Verifying Checksum
+2cbf34a5c7b5: Download complete
+5ca2f61f1678: Verifying Checksum
+5ca2f61f1678: Download complete
+65b174bb7eae: Verifying Checksum
+65b174bb7eae: Download complete
+aeecbd6531ec: Verifying Checksum
+aeecbd6531ec: Download complete
+bfec799a5322: Verifying Checksum
+bfec799a5322: Download complete
+3fec98c0e749: Download complete
+e8525b23711b: Verifying Checksum
+e8525b23711b: Download complete
+6c57e94aaa53: Verifying Checksum
+6c57e94aaa53: Download complete
+0b6f70502497: Verifying Checksum
+0b6f70502497: Download complete
+1046b810be96: Verifying Checksum
+1046b810be96: Download complete
+08336a58654b: Verifying Checksum
+08336a58654b: Download complete
+0ba9c1f964ed: Verifying Checksum
+0ba9c1f964ed: Download complete
+9b504cb41824: Verifying Checksum
+9b504cb41824: Download complete
+bf4e099145d4: Pull complete
+830f5c74da58: Pull complete
+c6b189607af1: Pull complete
+23e9202e08d5: Pull complete
+5674ead1c0b5: Pull complete
+0ba9c1f964ed: Pull complete
+78748714eba8: Pull complete
+cf1c919d3d2e: Pull complete
+a0b673088430: Pull complete
+c6595752a3b1: Pull complete
+2924ad31fa80: Pull complete
+2cbf34a5c7b5: Pull complete
+665634165c35: Pull complete
+5ca2f61f1678: Pull complete
+aeecbd6531ec: Pull complete
+65b174bb7eae: Pull complete
+bfec799a5322: Pull complete
+3fec98c0e749: Pull complete
+e8525b23711b: Pull complete
+9b504cb41824: Pull complete
+6c57e94aaa53: Pull complete
+0b6f70502497: Pull complete
+1046b810be96: Pull complete
+08336a58654b: Pull complete
+Digest: sha256:72e919a2eb9830a77537581d3688b160e2d763c5ee67f375bd6536f0cf29c16b
+Status: Downloaded newer image for 5bcbd322e89444bb95db59740a814666.azurecr.io/azureml/azureml_9764bba479e15d5cd8037bf1d3197616:latest
+5bcbd322e89444bb95db59740a814666.azurecr.io/azureml/azureml_9764bba479e15d5cd8037bf1d3197616:latest
+2021-04-20T04:56:21Z Check if container recycling_1618894172_db9617d5 already exist exited with 0, 1661e76b4e90
+
+
+2021-04-20T04:56:21Z The container recycling_1618894172_db9617d5 already exists, stop and remove it before starting it.
+2021-04-20T04:56:21Z Stopping container recycling_1618894172_db9617d5 exited with 1, Error response from daemon: No such container: recycling_1618894172_db9617d5
+
+
+2021-04-20T04:56:21Z Removing container recycling_1618894172_db9617d5 exited with 1, Error: No such container: recycling_1618894172_db9617d5
+
+
+18095e704168a2a1f975b61edbb104b06581266fa2a3d94b6a104ef3e3822d91
+2021-04-20T04:56:32Z Parameters for containerSetup task: useDetonationChamer set to false and sshRequired set to false 
+2021-04-20T04:56:32Z containerSetup task cmd: [/mnt/batch/tasks/startup/wd/hosttools -task=containerSetup -traceContext=00-72f1b04c80b8bc6d610ec8d594aff4cb-87fe4b79d7e9220b-01 -sshRequired=false] 
+2021/04/20 04:56:32 Starting App Insight Logger for task:  containerSetup
+2021/04/20 04:56:32 Version: 3.0.01565.0005 Branch: 2021-04-09 Commit: d52cce8
+2021/04/20 04:56:32 Entered ContainerSetupTask - Preparing infiniband
+2021/04/20 04:56:32 Starting infiniband setup
+2021/04/20 04:56:32 VMSize: standard_nc6_promo, Host: runtime-gen1-ubuntu18, Container: ubuntu-18.04
+2021/04/20 04:56:32 VMSize: standard_nc6_promo, Host: runtime-gen1-ubuntu18, Container: ubuntu-18.04
+2021-04-20T04:56:32Z VMSize: standard_nc6_promo, Host: runtime-gen1-ubuntu18, Container: ubuntu-18.04
+2021/04/20 04:56:32 /dev/infiniband/uverbs0 found (implying presence of InfiniBand)?: false
+2021/04/20 04:56:32 Not setting up Infiniband in Container
+2021/04/20 04:56:32 Not setting up Infiniband in Container
+2021-04-20T04:56:32Z Not setting up Infiniband in Container
+2021/04/20 04:56:32 sshd inside container not required for job, skipping setup.
+2021/04/20 04:56:33 All App Insights Logs was send successfully
+2021/04/20 04:56:33 App Insight Client has already been closed
+2021/04/20 04:56:33 Not exporting to RunHistory as the exporter is either stopped or there is no data.
+Stopped: false
+OriginalData: 1
+FilteredData: 0.
+2021-04-20T04:56:33Z Starting docker container succeeded.
+2021-04-20T04:56:34Z Job environment preparation succeeded on 10.0.0.4. Output: 
+>>>   2021/04/20 04:53:47 Starting App Insight Logger for task:  prepareJobEnvironment
+>>>   2021/04/20 04:53:47 Version: 3.0.01565.0005 Branch: 2021-04-09 Commit: d52cce8
+>>>   2021/04/20 04:53:47 runtime.GOOS linux
+>>>   2021/04/20 04:53:47 Checking if '/tmp' exists
+>>>   2021/04/20 04:53:47 Reading dyanamic configs
+>>>   2021/04/20 04:53:47 Container sas url: https://baiscriptseastusprod.blob.core.windows.net/aihosttools?sv=2018-03-28&sr=c&si=aihosttoolspolicy&sig=gCpFfTbL8hPl%2BzV43hBdfOZC4SuKqZoJraIo10S4%2FYw%3D
+>>>   2021/04/20 04:53:47 Failed to read from file /mnt/batch/tasks/startup/wd/az_resource/xdsenv.variable/azsecpack.variables, open /mnt/batch/tasks/startup/wd/az_resource/xdsenv.variable/azsecpack.variables: no such file or directory
+>>>   2021/04/20 04:53:47 [in autoUpgradeFromJobNodeSetup] Is Azsecpack installer on host: false. Is Azsecpack enabled: false,
+>>>   2021/04/20 04:53:47 Starting Azsecpack installation on machine: 1f2d537a7760400294840f1562ed2aff000000#0fa0e780-4b44-4b03-8cf1-32c338ddb012#6b443b21-01ef-4f24-91c6-70c888c1cb50#azure_trash_demo#azure_trash_demo#gpu-cluster-nc6
+>>>   2021/04/20 04:53:47 Is Azsecpack enabled: false, GetDisableVsatlsscan: true
+>>>   2021/04/20 04:53:47 Turning off azsecpack, if it is already running
+>>>   2021/04/20 04:53:47 [doTurnOffAzsecpack] output:Unit mdsd.service could not be found.
+>>>   ,err:exit status 1.
+>>>   2021/04/20 04:53:47 OS patching disabled by dynamic configs. Skipping.
+>>>   2021/04/20 04:53:47 Job: AZ_BATCHAI_JOB_NAME does not turn on the DetonationChamber
+>>>   2021/04/20 04:53:47 Start to getting gpu count by running nvidia-smi command
+>>>   2021/04/20 04:53:47 GPU : GPU 0: Tesla K80 (UUID: GPU-43d22526-5191-ae3d-30b8-fd2069994d4e)
+>>>   2021/04/20 04:53:47 GPU count found on the node: 1
+>>>   2021/04/20 04:53:47 Mellanox Inbox drivers found (implying presence of SR-IOV)?: false
+>>>   2021/04/20 04:53:47 Disabling IB for NCCL.
+>>>   2021/04/20 04:53:47 AMLComputeXDSEndpoint:  https://eastus-prodk8ds.batchai.core.windows.net
+>>>   2021/04/20 04:53:47 AMLComputeXDSApiVersion:  2018-02-01
+>>>   2021/04/20 04:53:47 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config
+>>>   2021/04/20 04:53:47 This is not a aml-workstation (compute instance), current offer type: amlcompute. Starting identity responder as part of prepareJobEnvironment.
+>>>   2021/04/20 04:53:47 Starting identity responder.
+>>>   2021/04/20 04:53:47 Starting identity responder.
+>>>   2021/04/20 04:53:47 Failed to open file /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.IdentityResponder.envlist: open /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.IdentityResponder.envlist: no such file or directory
+>>>   2021/04/20 04:53:47 Logfile used for identity responder: /mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/IdentityResponderLog-tvmps_a7560694712bff1786a184c5d735386e9ec527244b81e8fc5ab103ce255fa18f_d.txt
+>>>   2021/04/20 04:53:47 Logfile used for identity responder: /mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/IdentityResponderLog-tvmps_a7560694712bff1786a184c5d735386e9ec527244b81e8fc5ab103ce255fa18f_d.txt
+>>>   2021/04/20 04:53:47 Started Identity Responder for job.
+>>>   2021/04/20 04:53:47 Started Identity Responder for job.
+>>>   2021/04/20 04:53:47 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd
+>>>   2021/04/20 04:53:47 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/shared
+>>>   2021/04/20 04:53:47 From the policy service, the filtering patterns is: , data store is 
+>>>   2021/04/20 04:53:47 Mounting job level file systems
+>>>   2021/04/20 04:53:47 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts
+>>>   2021/04/20 04:53:47 Attempting to read datastore credentials file: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.amlcompute.datastorecredentials
+>>>   2021/04/20 04:53:47 Datastore credentials file not found, skipping.
+>>>   2021/04/20 04:53:47 Attempting to read runtime sas tokens file: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.master.runtimesastokens
+>>>   2021/04/20 04:53:47 Runtime sas tokens file not found, skipping.
+>>>   2021/04/20 04:53:47 No NFS configured
+>>>   2021/04/20 04:53:47 No Azure File Shares configured
+>>>   2021/04/20 04:53:47 Mounting blob file systems
+>>>   2021/04/20 04:53:47 Blobfuse runtime version 1.3.6
+>>>   2021/04/20 04:53:47 Mounting azureml-blobstore-5bcbd322-e894-44bb-95db-59740a814666 container from azuretrastorage443d53d76 account at /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore
+>>>   2021/04/20 04:53:47 Using Compute Identity to authenticate Blobfuse: false.
+>>>   2021/04/20 04:53:47 Using Compute Identity to authenticate Blobfuse: false.
+>>>   2021/04/20 04:53:48 Blobfuse cache size set to 316525 MB.
+>>>   2021/04/20 04:53:48 Running following command: /bin/bash -c sudo blobfuse /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore --tmp-path=/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/caches/workspaceblobstore --file-cache-timeout-in-seconds=1000000 --cache-size-mb=316525 -o nonempty -o allow_other --config-file=/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/configs/workspaceblobstore.cfg --log-level=LOG_WARNING
+>>>   2021/04/20 04:53:48 Successfully mounted a/an Blobfuse File System at /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore
+>>>   2021/04/20 04:53:49 Waiting for blobfs to be mounted at /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore
+>>>   2021/04/20 04:53:49 Successfully mounted azureml-blobstore-5bcbd322-e894-44bb-95db-59740a814666 container from azuretrastorage443d53d76 account at /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore
+>>>   2021/04/20 04:53:49 No unmanaged file systems configured
+>>>   2021/04/20 04:53:49 Start to getting gpu count by running nvidia-smi command
+>>>   2021/04/20 04:53:49 GPU : GPU 0: Tesla K80 (UUID: GPU-43d22526-5191-ae3d-30b8-fd2069994d4e)
+>>>   2021/04/20 04:53:49 Failed to start nvidia-fabricmanager due to exit status 5 with output Failed to start nvidia-fabricmanager.service: Unit nvidia-fabricmanager.service not found.
+>>>   . Please ignore this if the GPUs don't utilize NVIDIA® NVLink® switches.
+>>>   2021/04/20 04:53:49 Failed to start nvidia-fabricmanager due to exit status 5 with output Failed to start nvidia-fabricmanager.service: Unit nvidia-fabricmanager.service not found.
+>>>   . Please ignore this if the GPUs don't utilize NVIDIA® NVLink® switches.
+>>>   2021/04/20 04:53:49 From the policy service, the filtering patterns is: , data store is 
+>>>   2021/04/20 04:53:49 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs
+>>>   2021/04/20 04:53:49 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/logs
+>>>   2021/04/20 04:53:49 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/outputs
+>>>   2021/04/20 04:53:49 Starting output-watcher...
+>>>   2021/04/20 04:53:49 Single file input dataset is enabled.
+>>>   2021/04/20 04:53:49 Begin Sidecar setup
+>>>   2021/04/20 04:53:49 SingleDataDirectory enabled, Passing to Sidecar.
+>>>   2021/04/20 04:53:49 Pulling Sidecar docker image: azureml/azureml_75dbdd65efabd34ac9f6ccab5f74b4b0
+>>>   2021/04/20 04:53:49 Start pull docker image: azureml
+>>>   2021/04/20 04:53:49 Getting credentials for image azureml/azureml_75dbdd65efabd34ac9f6ccab5f74b4b0 with url 
+>>>   2021/04/20 04:53:49 Container registry is not ACR.
+>>>   2021/04/20 04:53:49 Skip getting ACR Credentials from Identity and will be getting it from EMS
+>>>   2021/04/20 04:53:49 Getting ACR Credentials from EMS for environment AzureML-Sidecar:22
+>>>   2021/04/20 04:53:49 Requesting XDS for registry details.
+>>>   2021/04/20 04:53:49 Attempt 1 of http call to https://eastus-prodk8ds.batchai.core.windows.net/hosttoolapi/subscriptions/6b443b21-01ef-4f24-91c6-70c888c1cb50/resourceGroups/azure_trash_demo/workspaces/azure_trash_demo/clusters/gpu-cluster-nc6/nodes/tvmps_a7560694712bff1786a184c5d735386e9ec527244b81e8fc5ab103ce255fa18f_d?api-version=2018-02-01
+>>>   2021/04/20 04:53:50 Got container registry details from credentials service for registry address: viennaglobal.azurecr.io.
+>>>   2021/04/20 04:53:50 Writing ACR Details to file...
+>>>   2021/04/20 04:53:50 Copying ACR Details file to worker nodes...
+>>>   2021/04/20 04:53:50 Executing 'Copy ACR Details file' on 10.0.0.4
+>>>   2021/04/20 04:53:50 Begin executing 'Copy ACR Details file' task on Node
+>>>   2021/04/20 04:53:50 'Copy ACR Details file' task Node result: succeeded
+>>>   2021/04/20 04:53:50 Copy ACR Details file succeeded on 10.0.0.4. Output: 
+>>>   >>>   
+>>>   >>>   
+>>>   2021/04/20 04:53:50 Successfully retrieved ACR Credentials from EMS.
+>>>   2021/04/20 04:53:50 EMS returned viennaglobal.azurecr.io for environment AzureML-Sidecar
+>>>   2021/04/20 04:53:50 Updating image url from blank to viennaglobal.azurecr.io
+>>>   2021/04/20 04:53:50 start login to the docker registry
+>>>   2021/04/20 04:53:50 Successfully logged into the docker registry.
+>>>   2021/04/20 04:53:50 Start run pull docker image command
+>>>   2021/04/20 04:53:52 Not exporting to RunHistory as the exporter is either stopped or there is no data.
+>>>   Stopped: false
+>>>   OriginalData: 18
+>>>   FilteredData: 0.
+>>>   2021/04/20 04:54:04 Pull docker image succeeded.
+>>>   2021/04/20 04:54:04 Pull docker image time: 14.338089115s
+>>>   
+>>>   2021/04/20 04:54:04 Docker Version that this nodes use are: 19.03.14+azure
+>>>   
+>>>   2021/04/20 04:54:04 Start to getting gpu count by running nvidia-smi command
+>>>   2021/04/20 04:54:04 GPU : GPU 0: Tesla K80 (UUID: GPU-43d22526-5191-ae3d-30b8-fd2069994d4e)
+>>>   2021/04/20 04:54:04 Setting the memory limit for docker container to be 55987 MB
+>>>   2021/04/20 04:54:04 The env variable file size is 39882 bytes
+>>>   2021/04/20 04:54:04 /dev/infiniband/uverbs0 found (implying presence of InfiniBand)?: false
+>>>   2021/04/20 04:54:04 Original Arguments: run,--ulimit,memlock=9223372036854775807,--ulimit,nofile=262144:262144,--cap-add,sys_ptrace,--name,recycling_1618894172_db9617d5_sidecar,-v,/mnt/batch/tasks/shared/LS_root/mounts:/mnt/batch/tasks/shared/LS_root/mounts,-v,/mnt/batch/tasks/shared/LS_root/configs:/mnt/batch/tasks/shared/LS_root/configs,-v,/mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared,-v,/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs,-v,/mnt/batch/tasks/startup:/mnt/batch/tasks/startup,--gpus,all,-m,55987m,-v,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs,-v,/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd,-v,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5,-v,/mnt/batch/tasks/shared/LS_root/shared/tracing/recycling_1618894172_db9617d5/logs/azureml/tracing:/mnt/batch/tasks/shared/LS_root/shared/tracing/recycling_1618894172_db9617d5/logs/azureml/tracing,-w,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd,--expose,23,--env-file,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist,--shm-size,2g,-v,/:/mnt/hostfs:rshared,--env,SIDECAR_HOSTFS=/mnt/hostfs,--env,SIDECAR_WORKING_DIR=/mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5,--env,AZ_BATCHAI_ENVLIST_PATH=/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist,--env,AZUREML_SIDECAR_SINGLE_DATA_DIRECTORY=true
+>>>   2021/04/20 04:54:04 the binding /mnt/batch/tasks/shared/LS_root/shared/tracing/recycling_1618894172_db9617d5/logs/azureml/tracing:/mnt/batch/tasks/shared/LS_root/shared/tracing/recycling_1618894172_db9617d5/logs/azureml/tracing is discarded as we already have /mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared 
+>>>   2021/04/20 04:54:04 the binding /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs is discarded as we already have /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5 
+>>>   2021/04/20 04:54:04 Updated Arguments: run,--ulimit,memlock=9223372036854775807,--ulimit,nofile=262144:262144,--cap-add,sys_ptrace,--name,recycling_1618894172_db9617d5_sidecar,--gpus,all,-m,55987m,-w,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd,--expose,23,--env-file,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist,--shm-size,2g,--env,SIDECAR_HOSTFS=/mnt/hostfs,--env,SIDECAR_WORKING_DIR=/mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5,--env,AZ_BATCHAI_ENVLIST_PATH=/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist,--env,AZUREML_SIDECAR_SINGLE_DATA_DIRECTORY=true,-v,/:/mnt/hostfs:rshared,-v,/mnt/batch/tasks/startup:/mnt/batch/tasks/startup,-v,/mnt/batch/tasks/shared/LS_root/mounts:/mnt/batch/tasks/shared/LS_root/mounts,-v,/mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared,-v,/mnt/batch/tasks/shared/LS_root/configs:/mnt/batch/tasks/shared/LS_root/configs,-v,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5,-v,/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd,-v,/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs
+>>>   2021/04/20 04:54:04 Running Docker command: docker run --ulimit memlock=9223372036854775807 --ulimit nofile=262144:262144 --cap-add sys_ptrace --name recycling_1618894172_db9617d5_sidecar --gpus all -m 55987m -w /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd --expose 23 --env-file /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist --shm-size 2g --env SIDECAR_HOSTFS=/mnt/hostfs --env SIDECAR_WORKING_DIR=/mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5 --env AZ_BATCHAI_ENVLIST_PATH=/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist --env AZUREML_SIDECAR_SINGLE_DATA_DIRECTORY=true -v /:/mnt/hostfs:rshared -v /mnt/batch/tasks/startup:/mnt/batch/tasks/startup -v /mnt/batch/tasks/shared/LS_root/mounts:/mnt/batch/tasks/shared/LS_root/mounts -v /mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared -v /mnt/batch/tasks/shared/LS_root/configs:/mnt/batch/tasks/shared/LS_root/configs -v /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5 -v /mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd -v /mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs -d -it --privileged --net=host viennaglobal.azurecr.io/azureml/azureml_75dbdd65efabd34ac9f6ccab5f74b4b0
+>>>   2021/04/20 04:54:04 Check if container recycling_1618894172_db9617d5_sidecar already exist exited with 0, 
+>>>   
+>>>   2021/04/20 04:54:04 Check if container recycling_1618894172_db9617d5_sidecar already exist exited with 0, 
+>>>   
+>>>   2021/04/20 04:54:07 Attempt 1 of http call to https://eastus.api.azureml.ms/history/v1.0/private/subscriptions/6b443b21-01ef-4f24-91c6-70c888c1cb50/resourceGroups/azure_trash_demo/providers/Microsoft.MachineLearningServices/workspaces/azure_trash_demo/runs/recycling_1618894172_db9617d5/spans
+>>>   2021/04/20 04:54:10 Parameters for containerSetup task: useDetonationChamer set to false and sshRequired set to false 
+>>>   2021/04/20 04:54:10 Parameters for containerSetup task: useDetonationChamer set to false and sshRequired set to false 
+>>>   2021/04/20 04:54:10 containerSetup task cmd: [/mnt/batch/tasks/startup/wd/hosttools -task=containerSetup -traceContext=00-72f1b04c80b8bc6d610ec8d594aff4cb-ac3e418ff6f2e11e-01 -sshRequired=false] 
+>>>   2021/04/20 04:54:10 containerSetup task cmd: [/mnt/batch/tasks/startup/wd/hosttools -task=containerSetup -traceContext=00-72f1b04c80b8bc6d610ec8d594aff4cb-ac3e418ff6f2e11e-01 -sshRequired=false] 
+>>>   2021/04/20 04:54:11 Container ssh is not required for job type.
+>>>   2021/04/20 04:54:11 Starting docker container succeeded.
+>>>   2021/04/20 04:54:11 Starting docker container succeeded.
+>>>   2021/04/20 04:54:11 Docker Version that this nodes use are: 19.03.14+azure
+>>>   
+>>>   2021/04/20 04:54:11 Start to getting gpu count by running nvidia-smi command
+>>>   2021/04/20 04:54:11 GPU : GPU 0: Tesla K80 (UUID: GPU-43d22526-5191-ae3d-30b8-fd2069994d4e)
+>>>   2021/04/20 04:54:11 Waiting for sidecar container to start running.
+>>>   2021/04/20 04:54:11 Running command /usr/bin/docker inspect -f {{.State.Running}} recycling_1618894172_db9617d5_sidecar
+>>>   2021/04/20 04:54:11 Waiting for sidecar container to be ready.
+>>>   2021/04/20 04:54:11 Running command /usr/bin/docker exec recycling_1618894172_db9617d5_sidecar sh -c python -c 'from azureml.sidecar.ipc import IPC_FILE;import os;print("IsSidecarReady:{}".format(os.path.exists(IPC_FILE)))'
+>>>   2021/04/20 04:54:12 Sidecar container is running and TaskServer is ready.
+>>>   2021/04/20 04:54:12 Run job preparation command in Sidecar container
+>>>   2021/04/20 04:54:12 runSpecialJobTask: checking control script content under dir: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5-setup
+>>>   2021/04/20 04:54:12 Attempt 1 of http call to https://eastus.api.azureml.ms/history/v1.0/private/subscriptions/6b443b21-01ef-4f24-91c6-70c888c1cb50/resourceGroups/azure_trash_demo/providers/Microsoft.MachineLearningServices/workspaces/azure_trash_demo/runs/recycling_1618894172_db9617d5/spans
+>>>   2021/04/20 04:54:12 runSpecialJobTask: control script dir content: [_vendor_jwt_decode.cpython-37.pyc: size=2226; azureml_globals.cpython-37.pyc: size=10927; context_managers.cpython-37.pyc: size=30323; log_history_status.cpython-37.pyc: size=4292; request_utilities.cpython-37.pyc: size=1375; run_token_provider.cpython-37.pyc: size=3325; _tracer.py: size=2022 md5=4c1dd974ef27d1cbec1434a93802ac73; _tracing.py: size=26407 md5=64b473943a5d2905628a9b2097f18081; _vendor_jwt_decode.py: size=2277 md5=d4b49e48ed904f03a4d6ad2f64f17368; azureml_globals.py: size=11991 md5=d7a8ea488017b4ab5f951831b16b1ccb; context_managers.py: size=45836 md5=78adcfefa8cb92ef259dbaffb7f3239e; job_prep.py: size=10845 md5=cc7071d708925a7f6215f2a06c0a0e1c; log_history_status.py: size=4428 md5=778bbe2bb6cb72340d4344366f752a63; request_utilities.py: size=1185 md5=e053daf561ffebe1c54811d9dc11beaa; run_token_provider.py: size=4228 md5=b167c8697df9c999e3676723caa93cb3; utility_context_managers.py: size=5015 md5=824d969dee21cf92733986c744d17142]
+>>>   2021/04/20 04:54:12 runSpecialJobTask: os.GetEnv constants.StdouterrDir: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs
+>>>   2021/04/20 04:54:12 runSpecialJobTask: Raw cmd for preparation is passed is: python /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5-setup/job_prep.py --snapshots '[{"Id":"3713950c-14b1-4037-9a91-ffa4b2b327bb","PathStack":["."],"SnapshotEntityId":null}]'
+>>>   2021/04/20 04:54:12 runSpecialJobTask: stdout path for preparation is passed is: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs/65_job_prep-tvmps_a7560694712bff1786a184c5d735386e9ec527244b81e8fc5ab103ce255fa18f_d.txt
+>>>   2021/04/20 04:54:12 runSpecialJobTask: stderr path for preparation is passed is: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs/65_job_prep-tvmps_a7560694712bff1786a184c5d735386e9ec527244b81e8fc5ab103ce255fa18f_d.txt
+>>>   2021/04/20 04:54:12 native cmd: export AZUREML_JOB_TASK_ERROR_PATH='/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd/runSpecialJobTask_error.json';cd /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5;python /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5-setup/job_prep.py --snapshots '[{"Id":"3713950c-14b1-4037-9a91-ffa4b2b327bb","PathStack":["."],"SnapshotEntityId":null}]'
+>>>   2021/04/20 04:54:12 runSpecialJobTask: commons.GetOsPlatform(): ubuntu
+>>>   2021/04/20 04:54:12 runSpecialJobTask: Running cmd: /usr/bin/docker exec -e AZUREML_SDK_TRACEPARENT=00-72f1b04c80b8bc6d610ec8d594aff4cb-278ae35a40ee4e3e-01 -t recycling_1618894172_db9617d5_sidecar bash -c if [ -f ~/.bashrc ]; then PS1_back=$PS1; PS1='$'; . ~/.bashrc; PS1=$PS1_back; fi;PATH=$PATH:$AZ_BATCH_NODE_STARTUP_DIR/wd/;export AZUREML_JOB_TASK_ERROR_PATH='/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd/runSpecialJobTask_error.json';cd /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5;python /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5-setup/job_prep.py --snapshots '[{"Id":"3713950c-14b1-4037-9a91-ffa4b2b327bb","PathStack":["."],"SnapshotEntityId":null}]'
+>>>   2021/04/20 04:54:28 runSpecialJobTask: job preparation exited with code 0 and err <nil>
+>>>   
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:12.739549] Entering job preparation.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:13.577467] Starting job preparation.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:13.577504] Extracting the control code.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:13.595806] fetching and extracting the control code on master node.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:13.595830] Starting extract_project.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:13.595860] Starting to extract zip file.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.096518] Finished extracting zip file.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.338078] Using urllib.request Python 3.0 or later
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.338135] Start fetching snapshots.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.338173] Start fetching snapshot.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.338190] Retrieving project from snapshot: 3713950c-14b1-4037-9a91-ffa4b2b327bb
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: Starting the daemon thread to refresh tokens in background for process with pid = 63
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.923556] Finished fetching snapshot.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.923591] Finished fetching snapshots.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.923602] Finished extract_project.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.935111] Finished fetching and extracting the control code.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.941733] Start run_history_prep.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.990958] Job preparation is complete.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.991091] Entering Data Context Managers in Sidecar
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:14.991693] Running Sidecar prep cmd...
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:15.047112] INFO azureml.sidecar.sidecar: Received task: enter_contexts. Running on Linux at /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:15.047859] INFO azureml.sidecar.sidecar: Invoking "enter_contexts" task with Context Managers: {"context_managers": ["Dataset:context_managers.Datasets"]}
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: Enter __enter__ of DatasetContextManager
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: SDK version: azureml-core==1.25.0 azureml-dataprep==2.13.2. Session id: 14c5ec2e-b44a-49f1-95c4-91fd281f436f. Run id: recycling_1618894172_db9617d5.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [[[Context Manager output has been redacted.]]]
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:27.786672] Ran Sidecar prep cmd.
+>>>   2021/04/20 04:54:28 runSpecialJobTask: preparation: [2021-04-20T04:54:27.786757] Running Context Managers in Sidecar complete.
+>>>   2021/04/20 04:54:28 Job preparation command in Sidecar container completed
+>>>   2021/04/20 04:54:28 Sidecar setup completed
+>>>   2021/04/20 04:54:28 Start to pulling docker image: 5bcbd322e89444bb95db59740a814666.azurecr.io/azureml/azureml_9764bba479e15d5cd8037bf1d3197616
+>>>   2021/04/20 04:54:28 Start pull docker image: 5bcbd322e89444bb95db59740a814666.azurecr.io
+>>>   2021/04/20 04:54:28 Getting credentials for image 5bcbd322e89444bb95db59740a814666.azurecr.io/azureml/azureml_9764bba479e15d5cd8037bf1d3197616 with url 5bcbd322e89444bb95db59740a814666.azurecr.io
+>>>   2021/04/20 04:54:28 Container registry is ACR.
+>>>   2021/04/20 04:54:28 Skip getting ACR Credentials from Identity and will be getting it from EMS
+>>>   2021/04/20 04:54:28 Getting ACR Credentials from EMS for environment waste-env-gpu:1
+>>>   2021/04/20 04:54:28 Requesting XDS for registry details.
+>>>   2021/04/20 04:54:28 Attempt 1 of http call to https://eastus-prodk8ds.batchai.core.windows.net/hosttoolapi/subscriptions/6b443b21-01ef-4f24-91c6-70c888c1cb50/resourceGroups/azure_trash_demo/workspaces/azure_trash_demo/clusters/gpu-cluster-nc6/nodes/tvmps_a7560694712bff1786a184c5d735386e9ec527244b81e8fc5ab103ce255fa18f_d?api-version=2018-02-01
+>>>   2021/04/20 04:54:28 Got container registry details from credentials service for registry address: 5bcbd322e89444bb95db59740a814666.azurecr.io.
+>>>   2021/04/20 04:54:28 Writing ACR Details to file...
+>>>   2021/04/20 04:54:28 Copying ACR Details file to worker nodes...
+>>>   2021/04/20 04:54:28 Executing 'Copy ACR Details file' on 10.0.0.4
+>>>   2021/04/20 04:54:28 Begin executing 'Copy ACR Details file' task on Node
+>>>   2021/04/20 04:54:28 'Copy ACR Details file' task Node result: succeeded
+>>>   2021/04/20 04:54:28 Copy ACR Details file succeeded on 10.0.0.4. Output: 
+>>>   >>>   
+>>>   >>>   
+>>>   2021/04/20 04:54:28 Successfully retrieved ACR Credentials from EMS.
+>>>   2021/04/20 04:54:28 EMS returned 5bcbd322e89444bb95db59740a814666.azurecr.io for environment waste-env-gpu
+>>>   2021/04/20 04:54:28 start login to the docker registry
+>>>   2021/04/20 04:54:28 Successfully logged into the docker registry.
+>>>   2021/04/20 04:54:28 Start run pull docker image command
+>>>   2021/04/20 04:54:32 Not exporting to RunHistory as the exporter is either stopped or there is no data.
+>>>   Stopped: false
+>>>   OriginalData: 5
+>>>   FilteredData: 0.
+>>>   2021/04/20 04:56:21 Pull docker image succeeded.
+>>>   2021/04/20 04:56:21 Pull docker image time: 1m53.481143188s
+>>>   
+>>>   2021/04/20 04:56:21 Docker Version that this nodes use are: 19.03.14+azure
+>>>   
+>>>   2021/04/20 04:56:21 Start to getting gpu count by running nvidia-smi command
+>>>   2021/04/20 04:56:21 GPU : GPU 0: Tesla K80 (UUID: GPU-43d22526-5191-ae3d-30b8-fd2069994d4e)
+>>>   2021/04/20 04:56:21 Setting the memory limit for docker container to be 55987 MB
+>>>   2021/04/20 04:56:21 The env variable file size is 40346 bytes
+>>>   2021/04/20 04:56:21 /dev/infiniband/uverbs0 found (implying presence of InfiniBand)?: false
+>>>   2021/04/20 04:56:21 Original Arguments: run,--ulimit,memlock=9223372036854775807,--ulimit,nofile=262144:262144,--cap-add,sys_ptrace,--name,recycling_1618894172_db9617d5,-v,/mnt/batch/tasks/shared/LS_root/mounts:/mnt/batch/tasks/shared/LS_root/mounts,-v,/mnt/batch/tasks/shared/LS_root/configs:/mnt/batch/tasks/shared/LS_root/configs,-v,/mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared,-v,/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs,-v,/mnt/batch/tasks/startup:/mnt/batch/tasks/startup,--gpus,all,-m,55987m,-v,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs,-v,/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd,-v,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5,-v,/mnt/batch/tasks/shared/LS_root/shared/tracing/recycling_1618894172_db9617d5/logs/azureml/tracing:/mnt/batch/tasks/shared/LS_root/shared/tracing/recycling_1618894172_db9617d5/logs/azureml/tracing,-w,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd,--expose,23,--env-file,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist,--shm-size,2g,-v,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa:rslave
+>>>   2021/04/20 04:56:21 the binding /mnt/batch/tasks/shared/LS_root/shared/tracing/recycling_1618894172_db9617d5/logs/azureml/tracing:/mnt/batch/tasks/shared/LS_root/shared/tracing/recycling_1618894172_db9617d5/logs/azureml/tracing is discarded as we already have /mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared 
+>>>   2021/04/20 04:56:21 the binding /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs is discarded as we already have /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5 
+>>>   2021/04/20 04:56:21 Updated Arguments: run,--ulimit,memlock=9223372036854775807,--ulimit,nofile=262144:262144,--cap-add,sys_ptrace,--name,recycling_1618894172_db9617d5,--gpus,all,-m,55987m,-w,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd,--expose,23,--env-file,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist,--shm-size,2g,-v,/mnt/batch/tasks/startup:/mnt/batch/tasks/startup,-v,/mnt/batch/tasks/shared/LS_root/mounts:/mnt/batch/tasks/shared/LS_root/mounts,-v,/mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared,-v,/mnt/batch/tasks/shared/LS_root/configs:/mnt/batch/tasks/shared/LS_root/configs,-v,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5,-v,/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa:rslave,-v,/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd,-v,/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs
+>>>   2021/04/20 04:56:21 Running Docker command: docker run --ulimit memlock=9223372036854775807 --ulimit nofile=262144:262144 --cap-add sys_ptrace --name recycling_1618894172_db9617d5 --gpus all -m 55987m -w /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd --expose 23 --env-file /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/config/.batchai.envlist --shm-size 2g -v /mnt/batch/tasks/startup:/mnt/batch/tasks/startup -v /mnt/batch/tasks/shared/LS_root/mounts:/mnt/batch/tasks/shared/LS_root/mounts -v /mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared -v /mnt/batch/tasks/shared/LS_root/configs:/mnt/batch/tasks/shared/LS_root/configs -v /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5 -v /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa:/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa:rslave -v /mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd -v /mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs:/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/certs -d -it --privileged --net=host 5bcbd322e89444bb95db59740a814666.azurecr.io/azureml/azureml_9764bba479e15d5cd8037bf1d3197616
+>>>   2021/04/20 04:56:21 Check if container recycling_1618894172_db9617d5 already exist exited with 0, 1661e76b4e90
+>>>   
+>>>   
+>>>   2021/04/20 04:56:21 Check if container recycling_1618894172_db9617d5 already exist exited with 0, 1661e76b4e90
+>>>   
+>>>   
+>>>   2021/04/20 04:56:21 The container recycling_1618894172_db9617d5 already exists, stop and remove it before starting it.
+>>>   2021/04/20 04:56:21 The container recycling_1618894172_db9617d5 already exists, stop and remove it before starting it.
+>>>   2021/04/20 04:56:21 Stopping container recycling_1618894172_db9617d5 exited with 1, Error response from daemon: No such container: recycling_1618894172_db9617d5
+>>>   
+>>>   
+>>>   2021/04/20 04:56:21 Stopping container recycling_1618894172_db9617d5 exited with 1, Error response from daemon: No such container: recycling_1618894172_db9617d5
+>>>   
+>>>   
+>>>   2021/04/20 04:56:21 Removing container recycling_1618894172_db9617d5 exited with 1, Error: No such container: recycling_1618894172_db9617d5
+>>>   
+>>>   
+>>>   2021/04/20 04:56:21 Removing container recycling_1618894172_db9617d5 exited with 1, Error: No such container: recycling_1618894172_db9617d5
+>>>   
+>>>   
+>>>   2021/04/20 04:56:22 Attempt 1 of http call to https://eastus.api.azureml.ms/history/v1.0/private/subscriptions/6b443b21-01ef-4f24-91c6-70c888c1cb50/resourceGroups/azure_trash_demo/providers/Microsoft.MachineLearningServices/workspaces/azure_trash_demo/runs/recycling_1618894172_db9617d5/spans
+>>>   2021/04/20 04:56:32 Parameters for containerSetup task: useDetonationChamer set to false and sshRequired set to false 
+>>>   2021/04/20 04:56:32 Parameters for containerSetup task: useDetonationChamer set to false and sshRequired set to false 
+>>>   2021/04/20 04:56:32 containerSetup task cmd: [/mnt/batch/tasks/startup/wd/hosttools -task=containerSetup -traceContext=00-72f1b04c80b8bc6d610ec8d594aff4cb-87fe4b79d7e9220b-01 -sshRequired=false] 
+>>>   2021/04/20 04:56:32 containerSetup task cmd: [/mnt/batch/tasks/startup/wd/hosttools -task=containerSetup -traceContext=00-72f1b04c80b8bc6d610ec8d594aff4cb-87fe4b79d7e9220b-01 -sshRequired=false] 
+>>>   2021/04/20 04:56:33 Container ssh is not required for job type.
+>>>   2021/04/20 04:56:33 Starting docker container succeeded.
+>>>   2021/04/20 04:56:33 Starting docker container succeeded.
+>>>   2021/04/20 04:56:33 Disk space after starting docker container: 310260MB
+>>>   2021/04/20 04:56:33 Not exporting to RunHistory as the exporter is either stopped or there is no data.
+>>>   Stopped: false
+>>>   OriginalData: 2
+>>>   FilteredData: 0.
+>>>   2021/04/20 04:56:33 Process Exiting with Code:  0
+>>>   2021/04/20 04:56:34 All App Insights Logs was send successfully
+>>>   
+2021-04-20T04:56:34Z 127.0.0.1 slots=1 max-slots=1
+2021-04-20T04:56:34Z launching Custom job
+2021-04-20T04:58:52Z job exited with code 0
+2021-04-20T04:58:52Z Executing 'JobRelease task' on 10.0.0.4
+2021-04-20T04:58:57Z JobRelease task succeeded on 10.0.0.4. Output: 
+>>>   2021/04/20 04:58:53 Starting App Insight Logger for task:  jobRelease
+>>>   2021/04/20 04:58:53 Version: 3.0.01565.0005 Branch: 2021-04-09 Commit: d52cce8
+>>>   2021/04/20 04:58:53 runSpecialJobTask: os.GetEnv constants.StdouterrDir: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs
+>>>   2021/04/20 04:58:53 runSpecialJobTask: Raw cmd for postprocessing is passed is: export AZ_BATCHAI_RUN_STATUS='SUCCEEDED';export AZ_BATCHAI_LOG_UPLOAD_FAILED='false';python $AZ_BATCHAI_JOB_MOUNT_ROOT/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml-setup/job_release.py
+>>>   2021/04/20 04:58:53 runSpecialJobTask: stdout path for postprocessing is passed is: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs/75_job_post-tvmps_a7560694712bff1786a184c5d735386e9ec527244b81e8fc5ab103ce255fa18f_d.txt
+>>>   2021/04/20 04:58:53 runSpecialJobTask: stderr path for postprocessing is passed is: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml_compute_logs/75_job_post-tvmps_a7560694712bff1786a184c5d735386e9ec527244b81e8fc5ab103ce255fa18f_d.txt
+>>>   2021/04/20 04:58:53 native cmd: export AZUREML_JOB_TASK_ERROR_PATH='/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd/runSpecialJobTask_error.json';cd /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5;export AZ_BATCHAI_RUN_STATUS='SUCCEEDED';export AZ_BATCHAI_LOG_UPLOAD_FAILED='false';python $AZ_BATCHAI_JOB_MOUNT_ROOT/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml-setup/job_release.py
+>>>   2021/04/20 04:58:53 runSpecialJobTask: commons.GetOsPlatform(): ubuntu
+>>>   2021/04/20 04:58:53 runSpecialJobTask: Running cmd: /usr/bin/docker exec -e AZUREML_SDK_TRACEPARENT=00-72f1b04c80b8bc6d610ec8d594aff4cb-2320ffbe1cdf254e-01 -t recycling_1618894172_db9617d5_sidecar bash -c if [ -f ~/.bashrc ]; then PS1_back=$PS1; PS1='$'; . ~/.bashrc; PS1=$PS1_back; fi;PATH=$PATH:$AZ_BATCH_NODE_STARTUP_DIR/wd/;export AZUREML_JOB_TASK_ERROR_PATH='/mnt/batch/tasks/workitems/98cd9da2-4240-48bf-b2b8-f044c68dfae1/job-1/recycling_1618894172_37079a1f-8cf3-4123-a95e-8f77d886f2dd/wd/runSpecialJobTask_error.json';cd /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5;export AZ_BATCHAI_RUN_STATUS='SUCCEEDED';export AZ_BATCHAI_LOG_UPLOAD_FAILED='false';python $AZ_BATCHAI_JOB_MOUNT_ROOT/workspaceblobstore/azureml/recycling_1618894172_db9617d5/azureml-setup/job_release.py
+>>>   2021/04/20 04:58:56 runSpecialJobTask: job postprocessing exited with code 0 and err <nil>
+>>>   
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:53.213198] Entering job release
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.728755] Starting job release
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.729269] Logging experiment finalizing status in history service.
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.729463] job release stage : upload_datastore starting...Starting the daemon thread to refresh tokens in background for process with pid = 447
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: 
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.729891] job release stage : start importing azureml.history._tracking in run_history_release.
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.730236] job release stage : execute_job_release starting...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.732632] job release stage : copy_batchai_cached_logs starting...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.732701] job release stage : copy_batchai_cached_logs completed...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.851706] job release stage : send_run_telemetry starting...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.852899] Entering context manager injector.
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.869677] job release stage : execute_job_release completed...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:54.927425] job release stage : upload_datastore completed...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:55.011181] get vm size and vm region successfully.
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:55.025194] get compute meta data successfully.
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:55.302411] post artifact meta request successfully.
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:55.357011] upload compute record artifact successfully.
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:55.357092] job release stage : send_run_telemetry completed...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:55.357565] Running in AzureML-Sidecar, starting to exit user context managers...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:55.357656] Running Sidecar release cmd...
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:55.367695] INFO azureml.sidecar.sidecar: Received task: exit_contexts. Running on Linux at /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: Enter __exit__ of DatasetContextManager
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [[[Context Manager output has been redacted.]]]
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:56.468562] Ran Sidecar release cmd.
+>>>   2021/04/20 04:58:56 runSpecialJobTask: postprocessing: [2021-04-20T04:58:56.468642] Job release is complete
+>>>   2021/04/20 04:58:57 All App Insights Logs was send successfully
+>>>   2021/04/20 04:58:57 App Insight Client has already been closed
+>>>   2021/04/20 04:58:57 Not exporting to RunHistory as the exporter is either stopped or there is no data.
+>>>   Stopped: false
+>>>   OriginalData: 3
+>>>   FilteredData: 0.
+>>>   
+2021-04-20T04:58:57Z Executing 'Job environment clean-up' on 10.0.0.4
+2021-04-20T04:58:57Z Removing container recycling_1618894172_db9617d5 exited with 0, recycling_1618894172_db9617d5
+
+
+2021-04-20T04:58:57Z Removing container recycling_1618894172_db9617d5_sidecar exited with 0, recycling_1618894172_db9617d5_sidecar
+
+

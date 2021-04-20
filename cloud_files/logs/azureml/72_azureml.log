@@ -1,0 +1,104 @@
+2021-04-20 04:56:36,187|azureml|DEBUG|Inputs:: kwargs: {'OutputCollection': True, 'EnableMLflowTracking': True, 'snapshotProject': True, 'only_in_process_features': True, 'skip_track_logs_dir': True}, track_folders: None, deny_list: None, directories_to_watch: []
+2021-04-20 04:56:36,188|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Execution target type: batchai
+2021-04-20 04:56:36,279|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Failed to import pyspark with error: No module named 'pyspark'
+2021-04-20 04:56:36,279|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Pinning working directory for filesystems: ['pyfs']
+2021-04-20 04:56:36,654|azureml.core.run|DEBUG|Adding new factory <function ScriptRun._from_run_dto at 0x7fc7589837b8> for run source azureml.scriptrun
+2021-04-20 04:56:36,655|azureml.core.run|DEBUG|Identity in use is not set. Falling back to using AMLToken
+2021-04-20 04:56:36,655|azureml.core.run|DEBUG|Using AMLToken auth for remote run
+2021-04-20 04:56:36,657|azureml.core.authentication.TokenRefresherDaemon|DEBUG|Starting daemon and triggering first instance
+2021-04-20 04:56:36,665|azureml._restclient.clientbase|INFO|Created a worker pool for first use
+2021-04-20 04:56:36,665|azureml.core.authentication|DEBUG|Time to expire 1813978.334796 seconds
+2021-04-20 04:56:36,665|azureml._restclient.service_context|DEBUG|Created a static thread pool for ServiceContext class
+2021-04-20 04:56:36,665|azureml._restclient.clientbase|DEBUG|ClientBase: Calling get with url None
+2021-04-20 04:56:36,698|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:56:36,698|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:56:36,699|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:56:36,699|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:56:36,699|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:56:36,699|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:56:36,699|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:56:36,736|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[START]
+2021-04-20 04:56:36,736|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get_by_exp_id with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}
+2021-04-20 04:56:36,825|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[STOP]
+2021-04-20 04:56:36,826|azureml._SubmittedRun#recycling_1618894172_db9617d5|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': '3713950c-14b1-4037-9a91-ffa4b2b327bb', 'azureml.git.repository_uri': 'https://github.com/benbogart/getting_started_with_azure_for_ml.git', 'mlflow.source.git.repoURL': 'https://github.com/benbogart/getting_started_with_azure_for_ml.git', 'azureml.git.branch': 'master', 'mlflow.source.git.branch': 'master', 'azureml.git.commit': '05c86838acdeda92c09159c95e9a5a6d2b3c4e32', 'mlflow.source.git.commit': '05c86838acdeda92c09159c95e9a5a6d2b3c4e32', 'azureml.git.dirty': 'True', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2021-04-20 04:56:36,826|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2021-04-20 04:56:36,827|azureml|WARNING|Could not import azureml.mlflow or azureml.contrib.mlflow mlflow APIs will not run against AzureML services.  Add azureml-mlflow as a conda dependency for the run if this behavior is desired
+2021-04-20 04:56:36,827|azureml.WorkerPool|DEBUG|[START]
+2021-04-20 04:56:36,827|azureml.SendRunKillSignal|DEBUG|[START]
+2021-04-20 04:56:36,827|azureml.RunStatusContext|DEBUG|[START]
+2021-04-20 04:56:36,827|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunContextManager.RunStatusContext|DEBUG|[START]
+2021-04-20 04:56:36,827|azureml.MetricsClient|DEBUG|[START]
+2021-04-20 04:56:36,827|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|[START]
+2021-04-20 04:56:36,827|azureml.WorkingDirectoryCM|DEBUG|[START]
+2021-04-20 04:56:36,827|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|[START]
+2021-04-20 04:56:36,827|azureml.history._tracking.PythonWorkingDirectory|INFO|Current working dir: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+2021-04-20 04:56:36,828|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling pyfs
+2021-04-20 04:56:36,828|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Storing working dir for pyfs as /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+2021-04-20 04:57:06,657|azureml.core.authentication|DEBUG|Time to expire 1813948.342209 seconds
+2021-04-20 04:57:36,658|azureml.core.authentication|DEBUG|Time to expire 1813918.341895 seconds
+2021-04-20 04:58:06,658|azureml.core.authentication|DEBUG|Time to expire 1813888.341532 seconds
+2021-04-20 04:58:36,659|azureml.core.authentication|DEBUG|Time to expire 1813858.340755 seconds
+2021-04-20 04:58:49,707|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling pyfs
+2021-04-20 04:58:49,707|azureml.history._tracking.PythonWorkingDirectory|INFO|Current working dir: /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+2021-04-20 04:58:49,708|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Reverting working dir from /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5 to /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+2021-04-20 04:58:49,708|azureml.history._tracking.PythonWorkingDirectory|INFO|Working dir is already updated /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+2021-04-20 04:58:49,708|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|[STOP]
+2021-04-20 04:58:49,708|azureml.WorkingDirectoryCM|DEBUG|[STOP]
+2021-04-20 04:58:49,708|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2021-04-20 04:58:49,708|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2021-04-20 04:58:49,708|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.PostMetricsBatchDaemon|DEBUG|Starting daemon and triggering first instance
+2021-04-20 04:58:49,709|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2021-04-20 04:58:49,709|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2021-04-20 04:58:49,709|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 120 is different from task queue timeout 120, using flush timeout
+2021-04-20 04:58:49,709|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 120 seconds on tasks: [].
+2021-04-20 04:58:49,709|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2021-04-20 04:58:49,709|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:49,709|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2021-04-20 04:58:49,709|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.PostMetricsBatchV2Daemon|DEBUG|Starting daemon and triggering first instance
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 120 is different from task queue timeout 120, using flush timeout
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 120 seconds on tasks: [].
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2021-04-20 04:58:49,710|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2021-04-20 04:58:50,146|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2021-04-20 04:58:50,147|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:50,147|azureml.MetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:50,147|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2021-04-20 04:58:50,147|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2021-04-20 04:58:50,147|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 300 is different from task queue timeout 120, using flush timeout
+2021-04-20 04:58:50,147|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 300 seconds on tasks: [].
+2021-04-20 04:58:50,147|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2021-04-20 04:58:50,147|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:50,147|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2021-04-20 04:58:50,148|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 300 is different from task queue timeout 120, using flush timeout
+2021-04-20 04:58:50,148|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 300 seconds on tasks: [].
+2021-04-20 04:58:50,148|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2021-04-20 04:58:50,148|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:50,148|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:50,148|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2021-04-20 04:58:50,148|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2021-04-20 04:58:50,223|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2021-04-20 04:58:50,223|azureml.RunStatusContext|DEBUG|[STOP]
+2021-04-20 04:58:50,223|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2021-04-20 04:58:50,223|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2021-04-20 04:58:50,223|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2021-04-20 04:58:50,224|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2021-04-20 04:58:50,289|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2021-04-20 04:58:50,289|azureml.SendRunKillSignal|DEBUG|[STOP]
+2021-04-20 04:58:50,289|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[START]
+2021-04-20 04:58:50,289|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[STOP]
+2021-04-20 04:58:50,289|azureml.WorkerPool|DEBUG|[STOP]

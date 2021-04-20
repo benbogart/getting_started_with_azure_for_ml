@@ -1,0 +1,48 @@
+[2021-04-20T04:54:12.739549] Entering job preparation.
+[2021-04-20T04:54:13.577467] Starting job preparation.
+[2021-04-20T04:54:13.577504] Extracting the control code.
+[2021-04-20T04:54:13.595806] fetching and extracting the control code on master node.
+[2021-04-20T04:54:13.595830] Starting extract_project.
+[2021-04-20T04:54:13.595860] Starting to extract zip file.
+[2021-04-20T04:54:14.096518] Finished extracting zip file.
+[2021-04-20T04:54:14.338078] Using urllib.request Python 3.0 or later
+[2021-04-20T04:54:14.338135] Start fetching snapshots.
+[2021-04-20T04:54:14.338173] Start fetching snapshot.
+[2021-04-20T04:54:14.338190] Retrieving project from snapshot: 3713950c-14b1-4037-9a91-ffa4b2b327bb
+Starting the daemon thread to refresh tokens in background for process with pid = 63
+[2021-04-20T04:54:14.923556] Finished fetching snapshot.
+[2021-04-20T04:54:14.923591] Finished fetching snapshots.
+[2021-04-20T04:54:14.923602] Finished extract_project.
+[2021-04-20T04:54:14.935111] Finished fetching and extracting the control code.
+[2021-04-20T04:54:14.941733] Start run_history_prep.
+[2021-04-20T04:54:14.990958] Job preparation is complete.
+[2021-04-20T04:54:14.991091] Entering Data Context Managers in Sidecar
+[2021-04-20T04:54:14.991693] Running Sidecar prep cmd...
+[2021-04-20T04:54:15.047112] INFO azureml.sidecar.sidecar: Received task: enter_contexts. Running on Linux at /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+[2021-04-20T04:54:15.047859] INFO azureml.sidecar.sidecar: Invoking "enter_contexts" task with Context Managers: {"context_managers": ["Dataset:context_managers.Datasets"]}
+Enter __enter__ of DatasetContextManager
+SDK version: azureml-core==1.25.0 azureml-dataprep==2.13.2. Session id: 14c5ec2e-b44a-49f1-95c4-91fd281f436f. Run id: recycling_1618894172_db9617d5.
+Processing 'input__b4a89d1c'.
+Processing dataset FileDataset
+{
+  "source": [
+    "('workspaceblobstore', 'data')"
+  ],
+  "definition": [
+    "GetDatastoreFiles"
+  ],
+  "registration": {
+    "id": "4bf8e314-28ee-46a2-a457-f0ad8a8b7771",
+    "name": "waste_images",
+    "version": 1,
+    "description": "Waste images divided into train/validation/split for classification",
+    "workspace": "Workspace.create(name='azure_trash_demo', subscription_id='6b443b21-01ef-4f24-91c6-70c888c1cb50', resource_group='azure_trash_demo')"
+  }
+}
+Mounting input__b4a89d1c to /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa.
+Mounted input__b4a89d1c to /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa as folder.
+Exit __enter__ of DatasetContextManager
+Set Dataset input__b4a89d1c's target path to /mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa
+[2021-04-20T04:54:27.150357] INFO azureml.sidecar.task.enter_contexts: Entered Context Managers
+[2021-04-20T04:54:27.786672] Ran Sidecar prep cmd.
+[2021-04-20T04:54:27.786757] Running Context Managers in Sidecar complete.

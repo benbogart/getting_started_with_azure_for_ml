@@ -1,0 +1,49 @@
+2021-04-20 04:58:54,740|azureml|DEBUG|Execute Job Release Inputs:: kwargs: {'disable_output_upload': True}, track_folders: None, deny_list: None, directories_to_watch: []
+2021-04-20 04:58:54,740|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Execution target type: batchai
+2021-04-20 04:58:54,741|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Failed to import pyspark with error: No module named 'pyspark'
+2021-04-20 04:58:54,741|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Pinning working directory for filesystems: ['pyfs']
+2021-04-20 04:58:54,741|azureml.core.run|DEBUG|Identity in use is not set. Falling back to using AMLToken
+2021-04-20 04:58:54,741|azureml.core.run|DEBUG|Using AMLToken auth for remote run
+2021-04-20 04:58:54,743|azureml.core.authentication.TokenRefresherDaemon|DEBUG|Starting daemon and triggering first instance
+2021-04-20 04:58:54,750|azureml._restclient.clientbase|INFO|Created a worker pool for first use
+2021-04-20 04:58:54,750|azureml.core.authentication|DEBUG|Time to expire 1813840.249332 seconds
+2021-04-20 04:58:54,750|azureml._restclient.service_context|DEBUG|Created a static thread pool for ServiceContext class
+2021-04-20 04:58:54,751|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:54,751|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:54,751|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:54,751|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:54,752|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:54,752|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:54,752|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:54,783|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[START]
+2021-04-20 04:58:54,783|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get_by_exp_id with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}
+2021-04-20 04:58:54,867|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[STOP]
+2021-04-20 04:58:54,868|azureml._SubmittedRun#recycling_1618894172_db9617d5|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': '3713950c-14b1-4037-9a91-ffa4b2b327bb', 'azureml.git.repository_uri': 'https://github.com/benbogart/getting_started_with_azure_for_ml.git', 'mlflow.source.git.repoURL': 'https://github.com/benbogart/getting_started_with_azure_for_ml.git', 'azureml.git.branch': 'master', 'mlflow.source.git.branch': 'master', 'azureml.git.commit': '05c86838acdeda92c09159c95e9a5a6d2b3c4e32', 'mlflow.source.git.commit': '05c86838acdeda92c09159c95e9a5a6d2b3c4e32', 'azureml.git.dirty': 'True', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2021-04-20 04:58:54,868|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2021-04-20 04:58:54,869|azureml.WorkerPool|DEBUG|[START]
+2021-04-20 04:58:54,869|azureml.TrackFolders|DEBUG|[START]
+2021-04-20 04:58:54,869|azureml|DEBUG|Executing history release.
+2021-04-20 04:58:54,869|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Uploading tracked directories: [], excluding ['azureml-logs/driver_log']
+2021-04-20 04:58:54,869|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling track for pyfs
+2021-04-20 04:58:54,869|azureml.TrackFolders|DEBUG|[STOP]
+2021-04-20 04:58:54,869|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[START]
+2021-04-20 04:58:54,869|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[STOP]
+2021-04-20 04:58:54,869|azureml.WorkerPool|DEBUG|[STOP]
+2021-04-20 04:58:55,367|azureml.sidecar.sidecar|INFO|Received task: exit_contexts. Running on Linux at /mnt/hostfs/mnt/batch/tasks/shared/LS_root/[27a06a9e3d5e7f67eb604a39536208c9]/[c06cce5a0f799ecf6aad4404fefcb434]/azureml/[9d70062194d4a1633c38fb94068d95ed]/mounts/workspaceblobstore/azureml/[9d70062194d4a1633c38fb94068d95ed]
+2021-04-20 04:58:55,696|azureml.core.run|DEBUG|Identity in use is not set. Falling back to using AMLToken
+2021-04-20 04:58:55,696|azureml.core.run|DEBUG|Using AMLToken auth for remote run
+2021-04-20 04:58:55,696|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2021-04-20 04:58:55,697|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:55,697|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:55,697|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:55,697|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:55,698|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:55,698|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:55,698|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://eastus.api.azureml.ms.
+2021-04-20 04:58:55,727|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[START]
+2021-04-20 04:58:55,727|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get_by_exp_id with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}
+2021-04-20 04:58:55,792|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[STOP]
+2021-04-20 04:58:55,793|azureml._SubmittedRun#recycling_1618894172_db9617d5|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': '3713950c-14b1-4037-9a91-ffa4b2b327bb', 'azureml.git.repository_uri': 'https://github.com/benbogart/getting_started_with_azure_for_ml.git', 'mlflow.source.git.repoURL': 'https://github.com/benbogart/getting_started_with_azure_for_ml.git', 'azureml.git.branch': 'master', 'mlflow.source.git.branch': 'master', 'azureml.git.commit': '05c86838acdeda92c09159c95e9a5a6d2b3c4e32', 'mlflow.source.git.commit': '05c86838acdeda92c09159c95e9a5a6d2b3c4e32', 'azureml.git.dirty': 'True', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2021-04-20 04:58:55,793|azureml._SubmittedRun#recycling_1618894172_db9617d5.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2021-04-20 04:58:56,467|azureml.telemetry.logger._applicationinsights_logger|INFO|Sending 3085 bytes
+2021-04-20 04:58:56,467|azureml.telemetry.logger._applicationinsights_logger|INFO|Finish uploading in 0.673425 seconds.

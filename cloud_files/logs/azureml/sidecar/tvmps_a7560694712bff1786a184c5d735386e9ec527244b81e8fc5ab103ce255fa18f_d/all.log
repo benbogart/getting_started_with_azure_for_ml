@@ -1,0 +1,3 @@
+[2021-04-20T04:54:15.047112] INFO azureml.sidecar.sidecar: Received task: enter_contexts. Running on Linux at /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5
+[2021-04-20T04:54:15.047859] INFO azureml.sidecar.sidecar: Invoking "enter_contexts" task with Context Managers: {"context_managers": ["Dataset:context_managers.Datasets"]}
+[2021-04-20T04:58:55.367695] INFO azureml.sidecar.sidecar: Received task: exit_contexts. Running on Linux at /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/mounts/workspaceblobstore/azureml/recycling_1618894172_db9617d5

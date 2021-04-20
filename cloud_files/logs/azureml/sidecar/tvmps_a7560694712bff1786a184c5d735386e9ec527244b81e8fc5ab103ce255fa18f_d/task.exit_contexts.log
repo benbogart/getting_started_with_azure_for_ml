@@ -1,0 +1,7 @@
+Enter __exit__ of DatasetContextManager
+Unmounting /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa.
+fuse: failed to unmount /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa: Invalid argument
+Finishing unmounting /mnt/hostfs/mnt/batch/tasks/shared/LS_root/jobs/azure_trash_demo/azureml/recycling_1618894172_db9617d5/wd/tmp04gl2vaa.
+Exit __exit__ of DatasetContextManager
+[2021-04-20T04:58:55.678286] Removing absolute paths from host...
+[2021-04-20T04:58:55.685398] INFO azureml.sidecar.task.exit_contexts: Exited Context Managers

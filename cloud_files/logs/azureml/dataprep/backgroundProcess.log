@@ -1,0 +1,3302 @@
+2021-04-20 04:54:17.1124|DEBUG|EngineHost|14c5ec2e-b44a-49f1-95c4-91fd281f436f|Startup|MessageParser initialized|
+2021-04-20 04:54:17.1325|DEBUG|EngineHost|14c5ec2e-b44a-49f1-95c4-91fd281f436f|Startup|MessageLoop initialized|
+2021-04-20 04:54:17.4802|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: ActivityMigration|metrics: {}, properties: {"prevState":"No version","newState":"1","success":"True"}|
+2021-04-20 04:54:18.0700|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetDatastoreFilesBlock","id":"0"}|
+2021-04-20 04:54:18.0700|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"1"}|
+2021-04-20 04:54:18.0700|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"2"}|
+2021-04-20 04:54:18.0700|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"3"}|
+2021-04-20 04:54:18.0779|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:18.0912|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:18.0912|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:18.1193|DEBUG|DynamicPythonPathCLexExecutor|14c5ec2e-b44a-49f1-95c4-91fd281f436f|EnsureCLexExecutorReady|No more tasks in progress. Creating new CLexExecutor.|
+2021-04-20 04:54:18.1395|INFO|CLexExecutor|14c5ec2e-b44a-49f1-95c4-91fd281f436f|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "c0a5abec-e0cb-4d35-bebb-72095ff7629b"
+}
+2021-04-20 04:54:18.2035|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|MapReduceExecutor|Execution started|{
+  "ExecutionId": "5296cecb-ebce-478b-a512-14c9ffd3c2db",
+  "Main": "Da24SPlNruz3DQ1QyIoD/1V8HviGg1frxqblNxcKSOw="
+}
+2021-04-20 04:54:18.2972|WARN|RsLexExecutor|14c5ec2e-b44a-49f1-95c4-91fd281f436f|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "GetPortablePath" }))\n=> Unable to compile a provided native function. Unsupported native function? The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "GetPortablePath" })\n=> The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "GetPortablePath" }')|
+2021-04-20 04:54:18.2972|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCacheOperationVisitor|Visiting activity. Activity: Da24SPlNruz3DQ1QyIoD/1V8HviGg1frxqblNxcKSOw=|
+2021-04-20 04:54:18.3070|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1e7910bf-c257-4650-a134-88b26ccd70ab",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2021-04-20 04:54:18.3435|INFO|DatastoreResolver|14c5ec2e-b44a-49f1-95c4-91fd281f436f|Resolve|Resolving auth and host for datastore: 6b443b21-01ef-4f24-91c6-70c888c1cb50,azure_trash_demo,azure_trash_demo,workspaceblobstore using python host.|
+2021-04-20 04:54:20.2551|WARN||14c5ec2e-b44a-49f1-95c4-91fd281f436f|AzureBlob GetReference|Microsoft.DPrep.SharedLibrary.ErrorHandling.NotFoundException|
+2021-04-20 04:54:20.2675|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: OperationTry|metrics: {"triesCount":1.0}, properties: {"actionName":"AzureBlob GetReference","success":"False","exceptionId":"StreamAccessException"}|
+2021-04-20 04:54:20.5983|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1e7910bf-c257-4650-a134-88b26ccd70ab",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2021-04-20 04:54:20.5983|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "12223ec4-11cc-41a8-8a48-efac800f973e",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2021-04-20 04:54:20.6275|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "12223ec4-11cc-41a8-8a48-efac800f973e",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2021-04-20 04:54:20.6275|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "8732dbc3-4c27-4748-b6a4-ef5fd9a5fbad",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2021-04-20 04:54:20.6275|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "8732dbc3-4c27-4748-b6a4-ef5fd9a5fbad",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2021-04-20 04:54:20.6275|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "1d3ba525-80ac-44f9-b2c0-e97f85f6a3e0",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2021-04-20 04:54:21.4002|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "1d3ba525-80ac-44f9-b2c0-e97f85f6a3e0",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2021-04-20 04:54:21.4002|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "5296cecb-ebce-478b-a512-14c9ffd3c2db",
+  "Main": "Da24SPlNruz3DQ1QyIoD/1V8HviGg1frxqblNxcKSOw="
+}
+2021-04-20 04:54:21.4059|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:21.5465|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:21.5465|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:21.5465|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:21.5465|INFO|CLexExecutor|14c5ec2e-b44a-49f1-95c4-91fd281f436f|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "a199a433-bba5-4646-b078-a1c9f6de7f9e"
+}
+2021-04-20 04:54:21.5465|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|MapReduceExecutor|Execution started|{
+  "ExecutionId": "c1952ca9-bba6-458a-aa58-2ebe6b8d1f9a",
+  "Main": "hrn8H/GuvtSco/bwGKhdrgrlHJr731qy0l1Ig0u0VnA="
+}
+2021-04-20 04:54:21.5515|INFO|EngineServer|14c5ec2e-b44a-49f1-95c4-91fd281f436f|HandleRequest|Received request from Python host.|
+2021-04-20 04:54:21.5515|INFO|EngineServer|14c5ec2e-b44a-49f1-95c4-91fd281f436f|HandleRequest|Processing request from Python host for operation: resolve_datastore.|
+2021-04-20 04:54:21.5515|INFO|DatastoreResolver|14c5ec2e-b44a-49f1-95c4-91fd281f436f|Resolve|Resolving auth and host for datastore: 6b443b21-01ef-4f24-91c6-70c888c1cb50,azure_trash_demo,azure_trash_demo,workspaceblobstore using python host.|
+2021-04-20 04:54:22.2795|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "c1952ca9-bba6-458a-aa58-2ebe6b8d1f9a",
+  "Main": "hrn8H/GuvtSco/bwGKhdrgrlHJr731qy0l1Ig0u0VnA="
+}
+2021-04-20 04:54:22.2795|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:24.0432|DEBUG|EngineHost|11162be4-2d1f-4508-8245-b99e6b1c525b|Startup|MessageParser initialized|
+2021-04-20 04:54:24.0666|DEBUG|EngineHost|11162be4-2d1f-4508-8245-b99e6b1c525b|Startup|MessageLoop initialized|
+2021-04-20 04:54:24.3911|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: ActivityMigration|metrics: {}, properties: {"prevState":"No version","newState":"1","success":"True"}|
+2021-04-20 04:54:25.0635|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetDatastoreFilesBlock","id":"0"}|
+2021-04-20 04:54:25.0635|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"1"}|
+2021-04-20 04:54:25.0635|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"2"}|
+2021-04-20 04:54:25.0635|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"3"}|
+2021-04-20 04:54:25.0724|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:25.0858|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:25.0861|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:25.1007|DEBUG|DynamicPythonPathCLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|EnsureCLexExecutorReady|No more tasks in progress. Creating new CLexExecutor.|
+2021-04-20 04:54:25.1215|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "8ea49fac-56ae-496c-89bc-5579f2e0753f"
+}
+2021-04-20 04:54:25.1843|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "c54ac950-f240-454a-83e3-d38d8b7914ab",
+  "Main": "U0egCcIZr4MKiti0c12A2VRjLMg6xJ2TMn4bH5dO9TI="
+}
+2021-04-20 04:54:25.2253|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "GetPortablePath" }))\n=> Unable to compile a provided native function. Unsupported native function? The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "GetPortablePath" })\n=> The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "GetPortablePath" }')|
+2021-04-20 04:54:25.2253|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: U0egCcIZr4MKiti0c12A2VRjLMg6xJ2TMn4bH5dO9TI=|
+2021-04-20 04:54:25.2353|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1e7910bf-c257-4650-a134-88b26ccd70ab",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2021-04-20 04:54:25.2723|INFO|DatastoreResolver|11162be4-2d1f-4508-8245-b99e6b1c525b|Resolve|Resolving auth and host for datastore: 6b443b21-01ef-4f24-91c6-70c888c1cb50,azure_trash_demo,azure_trash_demo,workspaceblobstore using python host.|
+2021-04-20 04:54:25.4199|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetDatastoreFilesBlock","id":"0"}|
+2021-04-20 04:54:25.4199|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"1"}|
+2021-04-20 04:54:25.4199|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"2"}|
+2021-04-20 04:54:25.4199|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"3"}|
+2021-04-20 04:54:25.4199|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:25.4199|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:25.4199|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:25.4199|INFO|CLexExecutor|14c5ec2e-b44a-49f1-95c4-91fd281f436f|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "0f028bb5-d0ee-4f28-9c35-9981f6d64e15"
+}
+2021-04-20 04:54:25.4199|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|MapReduceExecutor|Execution started|{
+  "ExecutionId": "eda883a2-3876-4887-a673-3454f88d3992",
+  "Main": "xRnUpZTju6N1/Vxi1ZwRNDjeAZd6NPYHgeKUbUAAfUg="
+}
+2021-04-20 04:54:25.4222|WARN|RsLexExecutor|14c5ec2e-b44a-49f1-95c4-91fd281f436f|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "GetPortablePath" }))\n=> Unable to compile a provided native function. Unsupported native function? The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "GetPortablePath" })\n=> The name GetPortablePath does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "GetPortablePath" }')|
+2021-04-20 04:54:25.4222|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCacheOperationVisitor|Visiting activity. Activity: xRnUpZTju6N1/Vxi1ZwRNDjeAZd6NPYHgeKUbUAAfUg=|
+2021-04-20 04:54:25.4348|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1e7910bf-c257-4650-a134-88b26ccd70ab",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2021-04-20 04:54:25.4348|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1e7910bf-c257-4650-a134-88b26ccd70ab",
+  "ContextTag": "4",
+  "ParentContextTag": ""
+}
+2021-04-20 04:54:26.0875|WARN||14c5ec2e-b44a-49f1-95c4-91fd281f436f|AzureBlob GetReference|Microsoft.DPrep.SharedLibrary.ErrorHandling.NotFoundException|
+2021-04-20 04:54:26.0875|DEBUG|Telemetry|14c5ec2e-b44a-49f1-95c4-91fd281f436f|event: OperationTry|metrics: {"triesCount":1.0}, properties: {"actionName":"AzureBlob GetReference","success":"False","exceptionId":"StreamAccessException"}|
+2021-04-20 04:54:26.5001|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1e7910bf-c257-4650-a134-88b26ccd70ab",
+  "ContextTag": "4",
+  "ParentContextTag": ""
+}
+2021-04-20 04:54:26.5001|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "4ebf763a-1d38-4620-9554-6fd07bec574a",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2021-04-20 04:54:26.5001|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "4ebf763a-1d38-4620-9554-6fd07bec574a",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2021-04-20 04:54:26.5001|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "caa7f225-27ff-4fee-97f0-9f0e13985091",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2021-04-20 04:54:26.5001|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "caa7f225-27ff-4fee-97f0-9f0e13985091",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2021-04-20 04:54:26.5001|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "4ea805e8-9f3b-4910-9ac9-a40d32645af1",
+  "ContextTag": "7",
+  "ParentContextTag": "6"
+}
+2021-04-20 04:54:26.6397|WARN||11162be4-2d1f-4508-8245-b99e6b1c525b|AzureBlob GetReference|Microsoft.DPrep.SharedLibrary.ErrorHandling.NotFoundException|
+2021-04-20 04:54:26.6524|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: OperationTry|metrics: {"triesCount":1.0}, properties: {"actionName":"AzureBlob GetReference","success":"False","exceptionId":"StreamAccessException"}|
+2021-04-20 04:54:26.9648|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1e7910bf-c257-4650-a134-88b26ccd70ab",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2021-04-20 04:54:26.9648|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "a939887f-4acd-4de9-96d7-ffc125bb1ca8",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2021-04-20 04:54:26.9944|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "a939887f-4acd-4de9-96d7-ffc125bb1ca8",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2021-04-20 04:54:26.9944|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d6318596-9b1b-4d8b-8a2d-0f4447e3847f",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2021-04-20 04:54:26.9944|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d6318596-9b1b-4d8b-8a2d-0f4447e3847f",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2021-04-20 04:54:26.9944|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "476d81ab-849f-4107-bc49-f6a6d7e20da1",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2021-04-20 04:54:27.1394|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "4ea805e8-9f3b-4910-9ac9-a40d32645af1",
+  "ContextTag": "7",
+  "ParentContextTag": "6"
+}
+2021-04-20 04:54:27.1394|DEBUG|CLex|14c5ec2e-b44a-49f1-95c4-91fd281f436f|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "eda883a2-3876-4887-a673-3454f88d3992",
+  "Main": "xRnUpZTju6N1/Vxi1ZwRNDjeAZd6NPYHgeKUbUAAfUg="
+}
+2021-04-20 04:54:27.1394|DEBUG|Caching|14c5ec2e-b44a-49f1-95c4-91fd281f436f|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:54:27.7455|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "476d81ab-849f-4107-bc49-f6a6d7e20da1",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2021-04-20 04:54:27.7455|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "c54ac950-f240-454a-83e3-d38d8b7914ab",
+  "Main": "U0egCcIZr4MKiti0c12A2VRjLMg6xJ2TMn4bH5dO9TI="
+}
+2021-04-20 04:54:27.7511|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.4707|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.4707|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.4707|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"2"}|
+2021-04-20 04:56:48.4707|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"3"}|
+2021-04-20 04:56:48.4707|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.4707|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.4707|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.4707|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "dbedfa31-0909-48d0-bbc6-72067754a92c"
+}
+2021-04-20 04:56:48.4746|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "982026b3-1e8f-4bd6-8a92-c9c685f742a9",
+  "Main": "7epWdX6CYpcg/egSwIMisr0FTeSjVqxRQ8lrz8qYnIQ="
+}
+2021-04-20 04:56:48.4801|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "982026b3-1e8f-4bd6-8a92-c9c685f742a9",
+  "Main": "7epWdX6CYpcg/egSwIMisr0FTeSjVqxRQ8lrz8qYnIQ="
+}
+2021-04-20 04:56:48.4801|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:48.5082|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:48.5082|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.5082|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.5082|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.5082|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "4fdf25aa-7741-4c9c-a181-4e992befd39b"
+}
+2021-04-20 04:56:48.5116|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "7cdacdd8-14d8-49d6-a9c4-2cc774e778c8",
+  "Main": "eoaerDFiBTFXU3wH4/cT0vFEdkYvWlO42jOU0teQ+P0="
+}
+2021-04-20 04:56:48.5234|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.5234|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: eoaerDFiBTFXU3wH4/cT0vFEdkYvWlO42jOU0teQ+P0=|
+2021-04-20 04:56:48.5322|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "4",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.5623|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "4",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.5623|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2021-04-20 04:56:48.5867|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "3654343e-ace2-4f9e-bfa4-c604febfc1b3",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "3654343e-ace2-4f9e-bfa4-c604febfc1b3",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "4b2787f5-d54e-44ab-98f5-87400bad3f69",
+  "ContextTag": "7",
+  "ParentContextTag": "6"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "4b2787f5-d54e-44ab-98f5-87400bad3f69",
+  "ContextTag": "7",
+  "ParentContextTag": "6"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "5715253c-219c-495f-80fa-6d876a58aa38",
+  "ContextTag": "8",
+  "ParentContextTag": "7"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "5715253c-219c-495f-80fa-6d876a58aa38",
+  "ContextTag": "8",
+  "ParentContextTag": "7"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d19b389d-a875-4de6-a2e9-3f5446f9c59d",
+  "ContextTag": "9",
+  "ParentContextTag": "8"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d19b389d-a875-4de6-a2e9-3f5446f9c59d",
+  "ContextTag": "9",
+  "ParentContextTag": "8"
+}
+2021-04-20 04:56:48.6150|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "3f864668-3d0a-4b04-8f73-8c31e59cead5",
+  "ContextTag": "10",
+  "ParentContextTag": "9"
+}
+2021-04-20 04:56:48.6193|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "3f864668-3d0a-4b04-8f73-8c31e59cead5",
+  "ContextTag": "10",
+  "ParentContextTag": "9"
+}
+2021-04-20 04:56:48.6193|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "3f864668-3d0a-4b04-8f73-8c31e59cead5",
+  "ContextTag": "11",
+  "ParentContextTag": "10"
+}
+2021-04-20 04:56:48.6376|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "3f864668-3d0a-4b04-8f73-8c31e59cead5",
+  "ContextTag": "11",
+  "ParentContextTag": "10"
+}
+2021-04-20 04:56:48.6376|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "2785cbd3-721a-40cc-bc93-4901fdd36fb4",
+  "ContextTag": "12",
+  "ParentContextTag": "11"
+}
+2021-04-20 04:56:48.6376|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "2785cbd3-721a-40cc-bc93-4901fdd36fb4",
+  "ContextTag": "12",
+  "ParentContextTag": "11"
+}
+2021-04-20 04:56:48.6376|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "bf58e2e9-75fd-482f-9f12-f07c1510a922",
+  "ContextTag": "13",
+  "ParentContextTag": "12"
+}
+2021-04-20 04:56:48.6607|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.7208|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "bf58e2e9-75fd-482f-9f12-f07c1510a922",
+  "ContextTag": "13",
+  "ParentContextTag": "12"
+}
+2021-04-20 04:56:48.7208|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "7cdacdd8-14d8-49d6-a9c4-2cc774e778c8",
+  "Main": "eoaerDFiBTFXU3wH4/cT0vFEdkYvWlO42jOU0teQ+P0="
+}
+2021-04-20 04:56:48.7208|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.7302|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.7302|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.7302|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.7302|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"3"}|
+2021-04-20 04:56:48.7302|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"4"}|
+2021-04-20 04:56:48.7302|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.7302|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.7302|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.7302|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "d0162760-81ba-4411-9132-714e3d9bc8c4"
+}
+2021-04-20 04:56:48.7302|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "ed7059bc-afc1-43b4-850f-b24c6e71badb",
+  "Main": "/lKSrr1+7Olk/shkFCcubkVQP/3itgcFQTDG3J5radw="
+}
+2021-04-20 04:56:48.7302|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.7302|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: /lKSrr1+7Olk/shkFCcubkVQP/3itgcFQTDG3J5radw=|
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "4",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "14",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "14",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "15",
+  "ParentContextTag": "14"
+}
+2021-04-20 04:56:48.7385|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "15",
+  "ParentContextTag": "14"
+}
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "846042c8-c022-4b4c-819c-ed19c3f966d7",
+  "ContextTag": "16",
+  "ParentContextTag": "15"
+}
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "846042c8-c022-4b4c-819c-ed19c3f966d7",
+  "ContextTag": "16",
+  "ParentContextTag": "15"
+}
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "14f3d3a6-cbc2-435e-a083-793dd67e6bf4",
+  "ContextTag": "17",
+  "ParentContextTag": "16"
+}
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "14f3d3a6-cbc2-435e-a083-793dd67e6bf4",
+  "ContextTag": "17",
+  "ParentContextTag": "16"
+}
+2021-04-20 04:56:48.7385|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "4f8fbdc6-afa4-4c44-8e04-8c349b1899f4",
+  "ContextTag": "18",
+  "ParentContextTag": "17"
+}
+2021-04-20 04:56:48.7465|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.7745|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.7745|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "4f8fbdc6-afa4-4c44-8e04-8c349b1899f4",
+  "ContextTag": "18",
+  "ParentContextTag": "17"
+}
+2021-04-20 04:56:48.7745|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "ed7059bc-afc1-43b4-850f-b24c6e71badb",
+  "Main": "/lKSrr1+7Olk/shkFCcubkVQP/3itgcFQTDG3J5radw="
+}
+2021-04-20 04:56:48.7745|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:48.7866|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.7866|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.7866|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.7866|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "19bcaa54-6057-49a2-8acd-d789c25bdbe3"
+}
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "f4755a06-7338-40d1-9e56-1e4038cbc46d",
+  "Main": "ziDhQDPdXceDEyCO8/4GRKbjmN+pDlNKko7LMHHkZC0="
+}
+2021-04-20 04:56:48.7866|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: ziDhQDPdXceDEyCO8/4GRKbjmN+pDlNKko7LMHHkZC0=|
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "14",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "19",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "19",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "20",
+  "ParentContextTag": "19"
+}
+2021-04-20 04:56:48.7866|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "20",
+  "ParentContextTag": "19"
+}
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "a4323fb6-2d72-44da-8a92-b89bfe75024b",
+  "ContextTag": "21",
+  "ParentContextTag": "20"
+}
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "a4323fb6-2d72-44da-8a92-b89bfe75024b",
+  "ContextTag": "21",
+  "ParentContextTag": "20"
+}
+2021-04-20 04:56:48.7866|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "2947265f-cf7e-40ad-b92a-46cfdda0b431",
+  "ContextTag": "22",
+  "ParentContextTag": "21"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "2947265f-cf7e-40ad-b92a-46cfdda0b431",
+  "ContextTag": "22",
+  "ParentContextTag": "21"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "598f7f58-12f3-4f73-88d5-d9a76bb9be19",
+  "ContextTag": "23",
+  "ParentContextTag": "22"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "598f7f58-12f3-4f73-88d5-d9a76bb9be19",
+  "ContextTag": "23",
+  "ParentContextTag": "22"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "430ac2b3-9947-4718-9926-ef349f61161a",
+  "ContextTag": "24",
+  "ParentContextTag": "23"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "430ac2b3-9947-4718-9926-ef349f61161a",
+  "ContextTag": "24",
+  "ParentContextTag": "23"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "82031cee-3ba1-445e-b538-4fae3219c57c",
+  "ContextTag": "25",
+  "ParentContextTag": "24"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "82031cee-3ba1-445e-b538-4fae3219c57c",
+  "ContextTag": "25",
+  "ParentContextTag": "24"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "82031cee-3ba1-445e-b538-4fae3219c57c",
+  "ContextTag": "26",
+  "ParentContextTag": "25"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "82031cee-3ba1-445e-b538-4fae3219c57c",
+  "ContextTag": "26",
+  "ParentContextTag": "25"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "a3744e5b-70d4-43d6-abdc-e87386c878ab",
+  "ContextTag": "27",
+  "ParentContextTag": "26"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "a3744e5b-70d4-43d6-abdc-e87386c878ab",
+  "ContextTag": "27",
+  "ParentContextTag": "26"
+}
+2021-04-20 04:56:48.7900|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "5cee4c64-3e51-43e9-967d-2c9037e1d9d7",
+  "ContextTag": "28",
+  "ParentContextTag": "27"
+}
+2021-04-20 04:56:48.7900|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8066|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "5cee4c64-3e51-43e9-967d-2c9037e1d9d7",
+  "ContextTag": "28",
+  "ParentContextTag": "27"
+}
+2021-04-20 04:56:48.8066|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "f4755a06-7338-40d1-9e56-1e4038cbc46d",
+  "Main": "ziDhQDPdXceDEyCO8/4GRKbjmN+pDlNKko7LMHHkZC0="
+}
+2021-04-20 04:56:48.8066|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:48.8296|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:48.8296|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8296|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8296|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8304|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "bea36b49-fe7c-41e8-8675-525749e9f9f2"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "2c106f89-bafe-465a-a348-b4e485e5194e",
+  "Main": "DweeXNXR9gkP3o9aYoXLJbYoXvS8b1E3t3Jl0S2lbh4="
+}
+2021-04-20 04:56:48.8304|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: DweeXNXR9gkP3o9aYoXLJbYoXvS8b1E3t3Jl0S2lbh4=|
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "19",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "29",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "29",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "30",
+  "ParentContextTag": "29"
+}
+2021-04-20 04:56:48.8304|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "30",
+  "ParentContextTag": "29"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "b63de0b5-6d7f-4842-88ab-3fd96bc745ca",
+  "ContextTag": "31",
+  "ParentContextTag": "30"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "b63de0b5-6d7f-4842-88ab-3fd96bc745ca",
+  "ContextTag": "31",
+  "ParentContextTag": "30"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "ed755aef-b3e0-4e89-b213-3cb0f8e4709c",
+  "ContextTag": "32",
+  "ParentContextTag": "31"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "ed755aef-b3e0-4e89-b213-3cb0f8e4709c",
+  "ContextTag": "32",
+  "ParentContextTag": "31"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "72dbaddc-eb36-40b0-8989-460910053a37",
+  "ContextTag": "33",
+  "ParentContextTag": "32"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "72dbaddc-eb36-40b0-8989-460910053a37",
+  "ContextTag": "33",
+  "ParentContextTag": "32"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "b96d0542-a146-4373-bb0e-1f3f52f7c8be",
+  "ContextTag": "34",
+  "ParentContextTag": "33"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "b96d0542-a146-4373-bb0e-1f3f52f7c8be",
+  "ContextTag": "34",
+  "ParentContextTag": "33"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "19f1048a-993f-425b-9828-d85790b04f58",
+  "ContextTag": "35",
+  "ParentContextTag": "34"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "19f1048a-993f-425b-9828-d85790b04f58",
+  "ContextTag": "35",
+  "ParentContextTag": "34"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "19f1048a-993f-425b-9828-d85790b04f58",
+  "ContextTag": "36",
+  "ParentContextTag": "35"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "19f1048a-993f-425b-9828-d85790b04f58",
+  "ContextTag": "36",
+  "ParentContextTag": "35"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "644cb2bf-58ba-45a0-a2e6-9ea0e91fe73e",
+  "ContextTag": "37",
+  "ParentContextTag": "36"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "644cb2bf-58ba-45a0-a2e6-9ea0e91fe73e",
+  "ContextTag": "37",
+  "ParentContextTag": "36"
+}
+2021-04-20 04:56:48.8304|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "8e6312b2-4e58-46ef-b89f-f55cde9202b9",
+  "ContextTag": "38",
+  "ParentContextTag": "37"
+}
+2021-04-20 04:56:48.8304|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:48.8356|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:48.8356|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8356|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8356|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8356|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "c35af990-0471-4d4d-b919-1cec958d39be"
+}
+2021-04-20 04:56:48.8356|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "63f4686d-7211-4f65-aa1a-265266b9d393",
+  "Main": "csfR8iQ5GZD/WB/eH8Ds617VGzt0bisJtvV7mT6d9bY="
+}
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:48.8381|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8381|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8381|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8381|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: csfR8iQ5GZD/WB/eH8Ds617VGzt0bisJtvV7mT6d9bY=|
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "29",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "39",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "39",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "40",
+  "ParentContextTag": "39"
+}
+2021-04-20 04:56:48.8381|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "f03422a9-51bd-4357-b97b-a21943f3516c"
+}
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "40",
+  "ParentContextTag": "39"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "d82072d9-acf9-49e9-8c25-a54b2948ddaf",
+  "ContextTag": "41",
+  "ParentContextTag": "40"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "d82072d9-acf9-49e9-8c25-a54b2948ddaf",
+  "ContextTag": "41",
+  "ParentContextTag": "40"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "401afcbb-61b5-4aaa-bfd1-0c9ac48b28b8",
+  "ContextTag": "42",
+  "ParentContextTag": "41"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "401afcbb-61b5-4aaa-bfd1-0c9ac48b28b8",
+  "ContextTag": "42",
+  "ParentContextTag": "41"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "aafeedca-0402-4691-9afc-62d24f299624",
+  "ContextTag": "43",
+  "ParentContextTag": "42"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "aafeedca-0402-4691-9afc-62d24f299624",
+  "ContextTag": "43",
+  "ParentContextTag": "42"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "7289baf4-905d-4560-b7f3-768f0706883d",
+  "ContextTag": "44",
+  "ParentContextTag": "43"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "7289baf4-905d-4560-b7f3-768f0706883d",
+  "ContextTag": "44",
+  "ParentContextTag": "43"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "342b799b-4598-4f21-8f0b-7934938c4cac",
+  "ContextTag": "45",
+  "ParentContextTag": "44"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "342b799b-4598-4f21-8f0b-7934938c4cac",
+  "ContextTag": "45",
+  "ParentContextTag": "44"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "342b799b-4598-4f21-8f0b-7934938c4cac",
+  "ContextTag": "46",
+  "ParentContextTag": "45"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "342b799b-4598-4f21-8f0b-7934938c4cac",
+  "ContextTag": "46",
+  "ParentContextTag": "45"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "c39c1c05-e665-40ec-8a9c-1007ec0aa832",
+  "ContextTag": "47",
+  "ParentContextTag": "46"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "c39c1c05-e665-40ec-8a9c-1007ec0aa832",
+  "ContextTag": "47",
+  "ParentContextTag": "46"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "78927af2-b14d-4383-9526-c18f34608c31",
+  "ContextTag": "48",
+  "ParentContextTag": "47"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "7956aa26-0234-4f1c-acc0-dd53386ee21f",
+  "Main": "Ma2dYw7bRGDOGENtG/SwRE11gR9viGV43RQ7IPl9psQ="
+}
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:48.8381|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8381|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8381|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8381|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: Ma2dYw7bRGDOGENtG/SwRE11gR9viGV43RQ7IPl9psQ=|
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "39",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "49",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "49",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "50",
+  "ParentContextTag": "49"
+}
+2021-04-20 04:56:48.8381|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "27eec528-f9df-4815-810c-8f7c5511f0dd"
+}
+2021-04-20 04:56:48.8381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "50",
+  "ParentContextTag": "49"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "06207621-674e-4064-b268-63af8273fe04",
+  "ContextTag": "51",
+  "ParentContextTag": "50"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "06207621-674e-4064-b268-63af8273fe04",
+  "ContextTag": "51",
+  "ParentContextTag": "50"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "235ec065-e6be-4de5-b3c6-9d0f07fb57af",
+  "ContextTag": "52",
+  "ParentContextTag": "51"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "235ec065-e6be-4de5-b3c6-9d0f07fb57af",
+  "ContextTag": "52",
+  "ParentContextTag": "51"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "10be6446-08d1-4001-b1b7-46c761cac8e4",
+  "ContextTag": "53",
+  "ParentContextTag": "52"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "10be6446-08d1-4001-b1b7-46c761cac8e4",
+  "ContextTag": "53",
+  "ParentContextTag": "52"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "ec178963-0773-453a-8c71-8ba7a3a3fe9a",
+  "ContextTag": "54",
+  "ParentContextTag": "53"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "3d9b8782-422e-456f-b941-bf7284285607",
+  "Main": "8xSVoP4lT2/HB4J9gXcsOx1ZPRLNXhMnwNCTj8Yr29A="
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "ec178963-0773-453a-8c71-8ba7a3a3fe9a",
+  "ContextTag": "54",
+  "ParentContextTag": "53"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "39f45e46-37eb-4620-87ab-c07fd2574de6",
+  "ContextTag": "55",
+  "ParentContextTag": "54"
+}
+2021-04-20 04:56:48.8381|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "39f45e46-37eb-4620-87ab-c07fd2574de6",
+  "ContextTag": "55",
+  "ParentContextTag": "54"
+}
+2021-04-20 04:56:48.8420|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "39f45e46-37eb-4620-87ab-c07fd2574de6",
+  "ContextTag": "56",
+  "ParentContextTag": "55"
+}
+2021-04-20 04:56:48.8420|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "39f45e46-37eb-4620-87ab-c07fd2574de6",
+  "ContextTag": "56",
+  "ParentContextTag": "55"
+}
+2021-04-20 04:56:48.8420|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "3c1b3bb2-166f-466b-ae1b-ac094cf2028e",
+  "ContextTag": "57",
+  "ParentContextTag": "56"
+}
+2021-04-20 04:56:48.8420|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "3c1b3bb2-166f-466b-ae1b-ac094cf2028e",
+  "ContextTag": "57",
+  "ParentContextTag": "56"
+}
+2021-04-20 04:56:48.8420|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "5c2b1ca8-7bb7-4fa6-a6c0-0e0cfa5cbc1c",
+  "ContextTag": "58",
+  "ParentContextTag": "57"
+}
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:48.8420|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8420|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8420|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8420|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "8b794bce-6e6f-4bfe-bc14-dbd442da617c"
+}
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:48.8420|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:48.8420|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8420|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8420|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8420|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "8e6312b2-4e58-46ef-b89f-f55cde9202b9",
+  "ContextTag": "38",
+  "ParentContextTag": "37"
+}
+2021-04-20 04:56:48.8420|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "2c106f89-bafe-465a-a348-b4e485e5194e",
+  "Main": "DweeXNXR9gkP3o9aYoXLJbYoXvS8b1E3t3Jl0S2lbh4="
+}
+2021-04-20 04:56:48.8461|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "da2c40f1-fd86-4e6b-a422-a3cd3053c746"
+}
+2021-04-20 04:56:48.8461|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8461|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8461|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: 8xSVoP4lT2/HB4J9gXcsOx1ZPRLNXhMnwNCTj8Yr29A=|
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "49",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "59",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "59",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "60",
+  "ParentContextTag": "59"
+}
+2021-04-20 04:56:48.8461|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "60",
+  "ParentContextTag": "59"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "9fa845f2-9111-46ee-b4fa-9a2a2aee9439",
+  "ContextTag": "61",
+  "ParentContextTag": "60"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "9fa845f2-9111-46ee-b4fa-9a2a2aee9439",
+  "ContextTag": "61",
+  "ParentContextTag": "60"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f51762ea-f226-409b-a71d-2163ce39bef9",
+  "ContextTag": "62",
+  "ParentContextTag": "61"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f51762ea-f226-409b-a71d-2163ce39bef9",
+  "ContextTag": "62",
+  "ParentContextTag": "61"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "117f37d5-d7b1-4d0d-8a82-df809b549504",
+  "ContextTag": "63",
+  "ParentContextTag": "62"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "117f37d5-d7b1-4d0d-8a82-df809b549504",
+  "ContextTag": "63",
+  "ParentContextTag": "62"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "76063f81-e765-4a28-8c23-cbf393ab093b",
+  "ContextTag": "64",
+  "ParentContextTag": "63"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "76063f81-e765-4a28-8c23-cbf393ab093b",
+  "ContextTag": "64",
+  "ParentContextTag": "63"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "b81309eb-9958-4dcd-bdd8-fb6bb1538421",
+  "ContextTag": "65",
+  "ParentContextTag": "64"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "b81309eb-9958-4dcd-bdd8-fb6bb1538421",
+  "ContextTag": "65",
+  "ParentContextTag": "64"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "b81309eb-9958-4dcd-bdd8-fb6bb1538421",
+  "ContextTag": "66",
+  "ParentContextTag": "65"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "b81309eb-9958-4dcd-bdd8-fb6bb1538421",
+  "ContextTag": "66",
+  "ParentContextTag": "65"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "5c76a591-dcb8-4089-a8f1-e4bd02c63947",
+  "ContextTag": "67",
+  "ParentContextTag": "66"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "5c76a591-dcb8-4089-a8f1-e4bd02c63947",
+  "ContextTag": "67",
+  "ParentContextTag": "66"
+}
+2021-04-20 04:56:48.8461|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "7d5af3aa-6bcd-4dd3-b495-9356971623eb",
+  "ContextTag": "68",
+  "ParentContextTag": "67"
+}
+2021-04-20 04:56:48.8518|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8643|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "cb83e002-06ed-464f-800b-8235a11f4851",
+  "Main": "1Tgc+lfiPuUk3Bk5ydSI0GFH7qH7v8kYMtS5ogIT82U="
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "78927af2-b14d-4383-9526-c18f34608c31",
+  "ContextTag": "48",
+  "ParentContextTag": "47"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "5c2b1ca8-7bb7-4fa6-a6c0-0e0cfa5cbc1c",
+  "ContextTag": "58",
+  "ParentContextTag": "57"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "63f4686d-7211-4f65-aa1a-265266b9d393",
+  "Main": "csfR8iQ5GZD/WB/eH8Ds617VGzt0bisJtvV7mT6d9bY="
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "7956aa26-0234-4f1c-acc0-dd53386ee21f",
+  "Main": "Ma2dYw7bRGDOGENtG/SwRE11gR9viGV43RQ7IPl9psQ="
+}
+2021-04-20 04:56:48.8661|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: 1Tgc+lfiPuUk3Bk5ydSI0GFH7qH7v8kYMtS5ogIT82U=|
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "59",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "69",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "69",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "70",
+  "ParentContextTag": "69"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "9b0dae79-560b-48d3-9d43-80b757583b4d",
+  "Main": "EdcxI7HlL8IJ2JDnNYh8FxysBpNx+1N5t+2G2FZhH6g="
+}
+2021-04-20 04:56:48.8661|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "70",
+  "ParentContextTag": "69"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "ae9b5cb2-2daf-4bb1-af37-e8d3fab83602",
+  "ContextTag": "71",
+  "ParentContextTag": "70"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "ae9b5cb2-2daf-4bb1-af37-e8d3fab83602",
+  "ContextTag": "71",
+  "ParentContextTag": "70"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d6adb192-3d9b-46a1-9557-54df25890068",
+  "ContextTag": "72",
+  "ParentContextTag": "71"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d6adb192-3d9b-46a1-9557-54df25890068",
+  "ContextTag": "72",
+  "ParentContextTag": "71"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e8f1d78e-0c64-43da-805f-6960b7ebfe01",
+  "ContextTag": "73",
+  "ParentContextTag": "72"
+}
+2021-04-20 04:56:48.8661|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e8f1d78e-0c64-43da-805f-6960b7ebfe01",
+  "ContextTag": "73",
+  "ParentContextTag": "72"
+}
+2021-04-20 04:56:48.8661|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f24ac8f7-f79e-4b7d-be06-ee57f552a43a",
+  "ContextTag": "74",
+  "ParentContextTag": "73"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f24ac8f7-f79e-4b7d-be06-ee57f552a43a",
+  "ContextTag": "74",
+  "ParentContextTag": "73"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "dc3d388f-ec9b-4caf-8d5d-c25f4e293c9d",
+  "ContextTag": "75",
+  "ParentContextTag": "74"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "dc3d388f-ec9b-4caf-8d5d-c25f4e293c9d",
+  "ContextTag": "75",
+  "ParentContextTag": "74"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "dc3d388f-ec9b-4caf-8d5d-c25f4e293c9d",
+  "ContextTag": "76",
+  "ParentContextTag": "75"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "dc3d388f-ec9b-4caf-8d5d-c25f4e293c9d",
+  "ContextTag": "76",
+  "ParentContextTag": "75"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "f39548c5-5b49-45b6-9410-61f7aa0e89c3",
+  "ContextTag": "77",
+  "ParentContextTag": "76"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "f39548c5-5b49-45b6-9410-61f7aa0e89c3",
+  "ContextTag": "77",
+  "ParentContextTag": "76"
+}
+2021-04-20 04:56:48.8661|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "3e4c2128-434e-4e14-a4f9-2c92ed968596",
+  "ContextTag": "78",
+  "ParentContextTag": "77"
+}
+2021-04-20 04:56:48.8661|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8927|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: EdcxI7HlL8IJ2JDnNYh8FxysBpNx+1N5t+2G2FZhH6g=|
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "69",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "79",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "79",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "80",
+  "ParentContextTag": "79"
+}
+2021-04-20 04:56:48.8927|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "80",
+  "ParentContextTag": "79"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "c8727fc9-d740-4b7c-a550-521638f86b71",
+  "ContextTag": "81",
+  "ParentContextTag": "80"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "c8727fc9-d740-4b7c-a550-521638f86b71",
+  "ContextTag": "81",
+  "ParentContextTag": "80"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "38af107b-3675-4971-933e-7a8bd9134ac9",
+  "ContextTag": "82",
+  "ParentContextTag": "81"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "38af107b-3675-4971-933e-7a8bd9134ac9",
+  "ContextTag": "82",
+  "ParentContextTag": "81"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "1a79fdcf-f688-426c-bbc0-976ed57d7138",
+  "ContextTag": "83",
+  "ParentContextTag": "82"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "1a79fdcf-f688-426c-bbc0-976ed57d7138",
+  "ContextTag": "83",
+  "ParentContextTag": "82"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f16c965-5dfc-4f79-9dfa-5c26805251d0",
+  "ContextTag": "84",
+  "ParentContextTag": "83"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f16c965-5dfc-4f79-9dfa-5c26805251d0",
+  "ContextTag": "84",
+  "ParentContextTag": "83"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "4adbfdd2-c202-430e-87f8-3dd50e80d2aa",
+  "ContextTag": "85",
+  "ParentContextTag": "84"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "4adbfdd2-c202-430e-87f8-3dd50e80d2aa",
+  "ContextTag": "85",
+  "ParentContextTag": "84"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "4adbfdd2-c202-430e-87f8-3dd50e80d2aa",
+  "ContextTag": "86",
+  "ParentContextTag": "85"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "4adbfdd2-c202-430e-87f8-3dd50e80d2aa",
+  "ContextTag": "86",
+  "ParentContextTag": "85"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "932efd5e-8d67-439c-bac0-f0e1f0dd3ae8",
+  "ContextTag": "87",
+  "ParentContextTag": "86"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "932efd5e-8d67-439c-bac0-f0e1f0dd3ae8",
+  "ContextTag": "87",
+  "ParentContextTag": "86"
+}
+2021-04-20 04:56:48.8927|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "d6e8ca92-84ee-4aa8-9b50-a60bc3f304c8",
+  "ContextTag": "88",
+  "ParentContextTag": "87"
+}
+2021-04-20 04:56:48.8998|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:48.9037|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "3e4c2128-434e-4e14-a4f9-2c92ed968596",
+  "ContextTag": "78",
+  "ParentContextTag": "77"
+}
+2021-04-20 04:56:48.9037|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "cb83e002-06ed-464f-800b-8235a11f4851",
+  "Main": "1Tgc+lfiPuUk3Bk5ydSI0GFH7qH7v8kYMtS5ogIT82U="
+}
+2021-04-20 04:56:48.9037|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.9037|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "7d5af3aa-6bcd-4dd3-b495-9356971623eb",
+  "ContextTag": "68",
+  "ParentContextTag": "67"
+}
+2021-04-20 04:56:48.9037|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "3d9b8782-422e-456f-b941-bf7284285607",
+  "Main": "8xSVoP4lT2/HB4J9gXcsOx1ZPRLNXhMnwNCTj8Yr29A="
+}
+2021-04-20 04:56:48.9037|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:48.9145|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "d6e8ca92-84ee-4aa8-9b50-a60bc3f304c8",
+  "ContextTag": "88",
+  "ParentContextTag": "87"
+}
+2021-04-20 04:56:48.9145|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "9b0dae79-560b-48d3-9d43-80b757583b4d",
+  "Main": "EdcxI7HlL8IJ2JDnNYh8FxysBpNx+1N5t+2G2FZhH6g="
+}
+2021-04-20 04:56:48.9145|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:49.5204|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:49.5204|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5204|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5204|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5204|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "9073174a-cf33-4fea-8f6b-4cb584ab1ad8"
+}
+2021-04-20 04:56:49.5204|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "a774f902-a75b-4991-a88b-0067aa66739c",
+  "Main": "6VGuvjFeUZ+DdtMRIolg0/s6AG6GNewD/Y12c9nrtac="
+}
+2021-04-20 04:56:49.5230|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: 6VGuvjFeUZ+DdtMRIolg0/s6AG6GNewD/Y12c9nrtac=|
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "79",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "89",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "89",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "90",
+  "ParentContextTag": "89"
+}
+2021-04-20 04:56:49.5230|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "90",
+  "ParentContextTag": "89"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "1f6d77eb-09ec-4ec9-9d81-cef7f67eaa00",
+  "ContextTag": "91",
+  "ParentContextTag": "90"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "1f6d77eb-09ec-4ec9-9d81-cef7f67eaa00",
+  "ContextTag": "91",
+  "ParentContextTag": "90"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "b8b6b910-618a-404f-97dd-05d0944143e7",
+  "ContextTag": "92",
+  "ParentContextTag": "91"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "b8b6b910-618a-404f-97dd-05d0944143e7",
+  "ContextTag": "92",
+  "ParentContextTag": "91"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "b888ac4b-5408-4cf6-b43d-ca817bf9b8f8",
+  "ContextTag": "93",
+  "ParentContextTag": "92"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "b888ac4b-5408-4cf6-b43d-ca817bf9b8f8",
+  "ContextTag": "93",
+  "ParentContextTag": "92"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "425d32b7-958e-4e83-88e1-dd8783a7a459",
+  "ContextTag": "94",
+  "ParentContextTag": "93"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "425d32b7-958e-4e83-88e1-dd8783a7a459",
+  "ContextTag": "94",
+  "ParentContextTag": "93"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "4a3db03e-1bb5-4769-a7aa-bc3907a87247",
+  "ContextTag": "95",
+  "ParentContextTag": "94"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "4a3db03e-1bb5-4769-a7aa-bc3907a87247",
+  "ContextTag": "95",
+  "ParentContextTag": "94"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "4a3db03e-1bb5-4769-a7aa-bc3907a87247",
+  "ContextTag": "96",
+  "ParentContextTag": "95"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "4a3db03e-1bb5-4769-a7aa-bc3907a87247",
+  "ContextTag": "96",
+  "ParentContextTag": "95"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "52d034fe-156e-4d7e-a422-67a8858e8284",
+  "ContextTag": "97",
+  "ParentContextTag": "96"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "52d034fe-156e-4d7e-a422-67a8858e8284",
+  "ContextTag": "97",
+  "ParentContextTag": "96"
+}
+2021-04-20 04:56:49.5230|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "60f6f11b-5049-4dab-8c5c-d1cc71c95d11",
+  "ContextTag": "98",
+  "ParentContextTag": "97"
+}
+2021-04-20 04:56:49.5273|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5490|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "60f6f11b-5049-4dab-8c5c-d1cc71c95d11",
+  "ContextTag": "98",
+  "ParentContextTag": "97"
+}
+2021-04-20 04:56:49.5490|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "a774f902-a75b-4991-a88b-0067aa66739c",
+  "Main": "6VGuvjFeUZ+DdtMRIolg0/s6AG6GNewD/Y12c9nrtac="
+}
+2021-04-20 04:56:49.5490|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:49.5751|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5751|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5751|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5751|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "5185796d-b65e-4776-9707-d4084d6fdabd"
+}
+2021-04-20 04:56:49.5751|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "d1e37066-3436-4654-8c20-6283da266422",
+  "Main": "HRqO5Lvs2EWMK7MaC5imU8Y+60jR4mXHgkwQ2F3eNH8="
+}
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:49.5751|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:49.5751|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5751|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5751|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5751|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "b3d24c87-a000-4654-83ae-2e8d09460760"
+}
+2021-04-20 04:56:49.5781|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: HRqO5Lvs2EWMK7MaC5imU8Y+60jR4mXHgkwQ2F3eNH8=|
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "89",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "99",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "99",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "1dfc8324-aa13-489e-9afb-08929fce74b9",
+  "Main": "A6vpzR3KsIIcwYpmD6MfCxv6u7knLL3e8EoHG6eqMnk="
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "100",
+  "ParentContextTag": "99"
+}
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "100",
+  "ParentContextTag": "99"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "6b4f6844-9467-498b-a7c4-fb48be3db4a3",
+  "ContextTag": "101",
+  "ParentContextTag": "100"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "6b4f6844-9467-498b-a7c4-fb48be3db4a3",
+  "ContextTag": "101",
+  "ParentContextTag": "100"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d8998069-044d-4c49-a97e-3e3b4be76b41",
+  "ContextTag": "102",
+  "ParentContextTag": "101"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d8998069-044d-4c49-a97e-3e3b4be76b41",
+  "ContextTag": "102",
+  "ParentContextTag": "101"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "ce4dc7fc-2567-4a47-abe9-1fd7d3314e37",
+  "ContextTag": "103",
+  "ParentContextTag": "102"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "ce4dc7fc-2567-4a47-abe9-1fd7d3314e37",
+  "ContextTag": "103",
+  "ParentContextTag": "102"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "10c8ef45-060f-460f-8826-7477b6f9cf79",
+  "ContextTag": "104",
+  "ParentContextTag": "103"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "10c8ef45-060f-460f-8826-7477b6f9cf79",
+  "ContextTag": "104",
+  "ParentContextTag": "103"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "7a0ac9af-d9d4-41e9-8131-d3aa4f79b416",
+  "ContextTag": "105",
+  "ParentContextTag": "104"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "7a0ac9af-d9d4-41e9-8131-d3aa4f79b416",
+  "ContextTag": "105",
+  "ParentContextTag": "104"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "7a0ac9af-d9d4-41e9-8131-d3aa4f79b416",
+  "ContextTag": "106",
+  "ParentContextTag": "105"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "7a0ac9af-d9d4-41e9-8131-d3aa4f79b416",
+  "ContextTag": "106",
+  "ParentContextTag": "105"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "901b44d8-104d-4ae2-957b-b0b2b20d9f66",
+  "ContextTag": "107",
+  "ParentContextTag": "106"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "901b44d8-104d-4ae2-957b-b0b2b20d9f66",
+  "ContextTag": "107",
+  "ParentContextTag": "106"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "2001b851-3c2a-418e-a1fd-2f2b573b50f2",
+  "ContextTag": "108",
+  "ParentContextTag": "107"
+}
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:49.5781|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5781|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5781|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5781|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: A6vpzR3KsIIcwYpmD6MfCxv6u7knLL3e8EoHG6eqMnk=|
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "99",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "109",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "109",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "110",
+  "ParentContextTag": "109"
+}
+2021-04-20 04:56:49.5781|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "110",
+  "ParentContextTag": "109"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "3663bd07-efad-4ab4-9ddc-8bdca94f6144",
+  "ContextTag": "111",
+  "ParentContextTag": "110"
+}
+2021-04-20 04:56:49.5781|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "55b3638b-01e5-4771-937a-170228788929"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "3663bd07-efad-4ab4-9ddc-8bdca94f6144",
+  "ContextTag": "111",
+  "ParentContextTag": "110"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "44889dcf-82a6-46c6-99b4-a87f844cda8c",
+  "ContextTag": "112",
+  "ParentContextTag": "111"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "44889dcf-82a6-46c6-99b4-a87f844cda8c",
+  "ContextTag": "112",
+  "ParentContextTag": "111"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "a3eb1146-8fc6-4e20-9ebe-844fadd49100",
+  "ContextTag": "113",
+  "ParentContextTag": "112"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "a3eb1146-8fc6-4e20-9ebe-844fadd49100",
+  "ContextTag": "113",
+  "ParentContextTag": "112"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "3a38b826-c308-4025-84a2-4d47e8b34d84",
+  "ContextTag": "114",
+  "ParentContextTag": "113"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "3a38b826-c308-4025-84a2-4d47e8b34d84",
+  "ContextTag": "114",
+  "ParentContextTag": "113"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "f7d8421d-6e0c-45d6-bb80-f53f894c8919",
+  "ContextTag": "115",
+  "ParentContextTag": "114"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "f7d8421d-6e0c-45d6-bb80-f53f894c8919",
+  "ContextTag": "115",
+  "ParentContextTag": "114"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "f7d8421d-6e0c-45d6-bb80-f53f894c8919",
+  "ContextTag": "116",
+  "ParentContextTag": "115"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "f7d8421d-6e0c-45d6-bb80-f53f894c8919",
+  "ContextTag": "116",
+  "ParentContextTag": "115"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "c50140f3-4e2a-4062-8060-45a46a671e8d",
+  "ContextTag": "117",
+  "ParentContextTag": "116"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "c50140f3-4e2a-4062-8060-45a46a671e8d",
+  "ContextTag": "117",
+  "ParentContextTag": "116"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "af930999-0c9f-42ad-a841-6b5eb92aa1ba",
+  "ContextTag": "118",
+  "ParentContextTag": "117"
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "25dc2ecb-fc9f-4fd7-ad19-40b647a087c6",
+  "Main": "Gdm2kTYJheREcqlLkFzcxhvDKP8w9aPMLuX1e0S6Pbw="
+}
+2021-04-20 04:56:49.5781|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: Gdm2kTYJheREcqlLkFzcxhvDKP8w9aPMLuX1e0S6Pbw=|
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "109",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5781|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "119",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "119",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "120",
+  "ParentContextTag": "119"
+}
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "120",
+  "ParentContextTag": "119"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "4ba88dc9-baa0-4eaf-94f2-cdc11fbee89a",
+  "ContextTag": "121",
+  "ParentContextTag": "120"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "4ba88dc9-baa0-4eaf-94f2-cdc11fbee89a",
+  "ContextTag": "121",
+  "ParentContextTag": "120"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "00d86ff1-a4da-44d9-bf40-465d4491450f",
+  "ContextTag": "122",
+  "ParentContextTag": "121"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "00d86ff1-a4da-44d9-bf40-465d4491450f",
+  "ContextTag": "122",
+  "ParentContextTag": "121"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "3f3f48f7-95dd-4968-952f-50516eabc0dc",
+  "ContextTag": "123",
+  "ParentContextTag": "122"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "3f3f48f7-95dd-4968-952f-50516eabc0dc",
+  "ContextTag": "123",
+  "ParentContextTag": "122"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "55f89567-7cc8-4b07-95f9-c2d51c8b22b2",
+  "ContextTag": "124",
+  "ParentContextTag": "123"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "55f89567-7cc8-4b07-95f9-c2d51c8b22b2",
+  "ContextTag": "124",
+  "ParentContextTag": "123"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "589a79a7-94e3-4fc9-b92e-96ef0755f910",
+  "ContextTag": "125",
+  "ParentContextTag": "124"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "589a79a7-94e3-4fc9-b92e-96ef0755f910",
+  "ContextTag": "125",
+  "ParentContextTag": "124"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "589a79a7-94e3-4fc9-b92e-96ef0755f910",
+  "ContextTag": "126",
+  "ParentContextTag": "125"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "589a79a7-94e3-4fc9-b92e-96ef0755f910",
+  "ContextTag": "126",
+  "ParentContextTag": "125"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "54a6c41f-c9ce-4b7d-8bf9-a8a639ea62ff",
+  "ContextTag": "127",
+  "ParentContextTag": "126"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "54a6c41f-c9ce-4b7d-8bf9-a8a639ea62ff",
+  "ContextTag": "127",
+  "ParentContextTag": "126"
+}
+2021-04-20 04:56:49.5821|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "28ed465f-10df-4d66-b7e4-44672102390f",
+  "ContextTag": "128",
+  "ParentContextTag": "127"
+}
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:49.5821|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5821|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5821|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5821|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "56860c88-e9d5-4ad4-8a5f-270685cd7fa4"
+}
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:49.5821|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:49.5821|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5821|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5821|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5821|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "8078677a-f95a-4f63-9745-73b9a32fb773"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "6c361c0c-fce0-4ebe-b30f-07bada140f92",
+  "Main": "MdMFEk14ITlNvhBykZ2bhgKI3Z/jCehrM+AM++hqvyA="
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "a85501c7-0ddb-4f4d-a60d-0201d360f67b",
+  "Main": "JGuVg5aG0Y++dN7N+crWcBWsZbnrP/d8379xwQhgG4o="
+}
+2021-04-20 04:56:49.5869|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: MdMFEk14ITlNvhBykZ2bhgKI3Z/jCehrM+AM++hqvyA=|
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "119",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "129",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "129",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "130",
+  "ParentContextTag": "129"
+}
+2021-04-20 04:56:49.5869|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "130",
+  "ParentContextTag": "129"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "af930798-a243-4b67-bcd2-4f933b830a6c",
+  "ContextTag": "131",
+  "ParentContextTag": "130"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "af930798-a243-4b67-bcd2-4f933b830a6c",
+  "ContextTag": "131",
+  "ParentContextTag": "130"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "271382f9-954b-41ca-a52e-560d645ba51f",
+  "ContextTag": "132",
+  "ParentContextTag": "131"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "271382f9-954b-41ca-a52e-560d645ba51f",
+  "ContextTag": "132",
+  "ParentContextTag": "131"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "61f185ac-9fcd-4005-a3bc-8c40ddb1f010",
+  "ContextTag": "133",
+  "ParentContextTag": "132"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "61f185ac-9fcd-4005-a3bc-8c40ddb1f010",
+  "ContextTag": "133",
+  "ParentContextTag": "132"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "09990b7a-75f1-4aeb-b05b-72918dc1b26e",
+  "ContextTag": "134",
+  "ParentContextTag": "133"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "09990b7a-75f1-4aeb-b05b-72918dc1b26e",
+  "ContextTag": "134",
+  "ParentContextTag": "133"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "fb143b12-dde6-4163-83df-0a4e9deb405b",
+  "ContextTag": "135",
+  "ParentContextTag": "134"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "fb143b12-dde6-4163-83df-0a4e9deb405b",
+  "ContextTag": "135",
+  "ParentContextTag": "134"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "fb143b12-dde6-4163-83df-0a4e9deb405b",
+  "ContextTag": "136",
+  "ParentContextTag": "135"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "fb143b12-dde6-4163-83df-0a4e9deb405b",
+  "ContextTag": "136",
+  "ParentContextTag": "135"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "7f627d36-d964-458c-9827-02508e579d0d",
+  "ContextTag": "137",
+  "ParentContextTag": "136"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "7f627d36-d964-458c-9827-02508e579d0d",
+  "ContextTag": "137",
+  "ParentContextTag": "136"
+}
+2021-04-20 04:56:49.5869|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "551f4b75-6d03-4c43-a67e-54ed93cdc214",
+  "ContextTag": "138",
+  "ParentContextTag": "137"
+}
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ReadPreppyBlock","id":"1"}|
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionFilterBlock","id":"2"}|
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"3"}|
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"4"}|
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ExpressionAddColumnBlock","id":"5"}|
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"6"}|
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SummarizeBlock","id":"7"}|
+2021-04-20 04:56:49.5907|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"8"}|
+2021-04-20 04:56:49.5907|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5907|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5907|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5907|INFO|CLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "eb026d14-9ce7-407d-a741-78dd187e0842"
+}
+2021-04-20 04:56:49.5942|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5942|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: JGuVg5aG0Y++dN7N+crWcBWsZbnrP/d8379xwQhgG4o=|
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "129",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "139",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "139",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "140",
+  "ParentContextTag": "139"
+}
+2021-04-20 04:56:49.5942|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "140",
+  "ParentContextTag": "139"
+}
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "1051833f-5788-47e1-9e37-b1113310526d",
+  "ContextTag": "141",
+  "ParentContextTag": "140"
+}
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "1051833f-5788-47e1-9e37-b1113310526d",
+  "ContextTag": "141",
+  "ParentContextTag": "140"
+}
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "741f29c3-3a8c-4c6d-b4ae-885de02d1800",
+  "ContextTag": "142",
+  "ParentContextTag": "141"
+}
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "741f29c3-3a8c-4c6d-b4ae-885de02d1800",
+  "ContextTag": "142",
+  "ParentContextTag": "141"
+}
+2021-04-20 04:56:49.5942|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d47b382d-fe94-4c8f-a990-9735558ce7d2",
+  "ContextTag": "143",
+  "ParentContextTag": "142"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "d47b382d-fe94-4c8f-a990-9735558ce7d2",
+  "ContextTag": "143",
+  "ParentContextTag": "142"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "606ef0bf-210f-4fb0-8ce7-5d06bbb00b84",
+  "ContextTag": "144",
+  "ParentContextTag": "143"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "606ef0bf-210f-4fb0-8ce7-5d06bbb00b84",
+  "ContextTag": "144",
+  "ParentContextTag": "143"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "1e69e966-f9ed-4558-8aa1-1b87531d3fe1",
+  "ContextTag": "145",
+  "ParentContextTag": "144"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "1e69e966-f9ed-4558-8aa1-1b87531d3fe1",
+  "ContextTag": "145",
+  "ParentContextTag": "144"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "1e69e966-f9ed-4558-8aa1-1b87531d3fe1",
+  "ContextTag": "146",
+  "ParentContextTag": "145"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "1e69e966-f9ed-4558-8aa1-1b87531d3fe1",
+  "ContextTag": "146",
+  "ParentContextTag": "145"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "9d42039b-0cbd-40fe-93fc-dfc0a2505796",
+  "ContextTag": "147",
+  "ParentContextTag": "146"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "9d42039b-0cbd-40fe-93fc-dfc0a2505796",
+  "ContextTag": "147",
+  "ParentContextTag": "146"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "2dadeabd-c57b-4327-b7f5-195926b728dc",
+  "ContextTag": "148",
+  "ParentContextTag": "147"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "af930999-0c9f-42ad-a841-6b5eb92aa1ba",
+  "ContextTag": "118",
+  "ParentContextTag": "117"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "1dfc8324-aa13-489e-9afb-08929fce74b9",
+  "Main": "A6vpzR3KsIIcwYpmD6MfCxv6u7knLL3e8EoHG6eqMnk="
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "2001b851-3c2a-418e-a1fd-2f2b573b50f2",
+  "ContextTag": "108",
+  "ParentContextTag": "107"
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "d1e37066-3436-4654-8c20-6283da266422",
+  "Main": "HRqO5Lvs2EWMK7MaC5imU8Y+60jR4mXHgkwQ2F3eNH8="
+}
+2021-04-20 04:56:49.5982|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5982|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.5982|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution started|{
+  "ExecutionId": "cf11d3cf-5f14-4fb5-990a-648e22a13bf6",
+  "Main": "2/GBuplSuzPD0B+CGI+0bJ1E+cBq6MKT60x95CdNl18="
+}
+2021-04-20 04:56:49.6022|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "28ed465f-10df-4d66-b7e4-44672102390f",
+  "ContextTag": "128",
+  "ParentContextTag": "127"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "25dc2ecb-fc9f-4fd7-ad19-40b647a087c6",
+  "Main": "Gdm2kTYJheREcqlLkFzcxhvDKP8w9aPMLuX1e0S6Pbw="
+}
+2021-04-20 04:56:49.6022|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.6022|WARN|RsLexExecutor|11162be4-2d1f-4508-8245-b99e6b1c525b|Failed|Exception('Failed with script error: Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tScriptError(NativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" }))\n=> Unable to compile a provided native function. Unsupported native function? The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNativeFunctionCompileError(NameNotFound { identifier: "String_StartsWith" })\n=> The name String_StartsWith does not exist in the current scope, outer scopes or in globals.\n\tNameNotFound { identifier: "String_StartsWith" }')|
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCacheOperationVisitor|Visiting activity. Activity: 2/GBuplSuzPD0B+CGI+0bJ1E+cBq6MKT60x95CdNl18=|
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "139",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "149",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "a1e8eafa-eb3c-4bc7-83aa-0c04b497f434",
+  "ContextTag": "149",
+  "ParentContextTag": ""
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "150",
+  "ParentContextTag": "149"
+}
+2021-04-20 04:56:49.6022|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "c9b6bbcd-99cb-4b74-af20-71320ef23503",
+  "ContextTag": "150",
+  "ParentContextTag": "149"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "84912a36-a6b6-4735-ab1b-25a11f8c9650",
+  "ContextTag": "151",
+  "ParentContextTag": "150"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "FilterOperation",
+  "Reference": "",
+  "Tag": "84912a36-a6b6-4735-ab1b-25a11f8c9650",
+  "ContextTag": "151",
+  "ParentContextTag": "150"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f9a87aea-aa89-406c-8609-2ca9aa42ebac",
+  "ContextTag": "152",
+  "ParentContextTag": "151"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f9a87aea-aa89-406c-8609-2ca9aa42ebac",
+  "ContextTag": "152",
+  "ParentContextTag": "151"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "009f9133-2c10-41e3-bfaa-f043382adf5e",
+  "ContextTag": "153",
+  "ParentContextTag": "152"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "009f9133-2c10-41e3-bfaa-f043382adf5e",
+  "ContextTag": "153",
+  "ParentContextTag": "152"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "c9be314a-8949-4a9d-8cb1-e53276d84571",
+  "ContextTag": "154",
+  "ParentContextTag": "153"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "c9be314a-8949-4a9d-8cb1-e53276d84571",
+  "ContextTag": "154",
+  "ParentContextTag": "153"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "73a8bfe6-db08-4b1a-a70e-b6838c1d1ed2",
+  "ContextTag": "155",
+  "ParentContextTag": "154"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "73a8bfe6-db08-4b1a-a70e-b6838c1d1ed2",
+  "ContextTag": "155",
+  "ParentContextTag": "154"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "73a8bfe6-db08-4b1a-a70e-b6838c1d1ed2",
+  "ContextTag": "156",
+  "ParentContextTag": "155"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "73a8bfe6-db08-4b1a-a70e-b6838c1d1ed2",
+  "ContextTag": "156",
+  "ParentContextTag": "155"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "6950e653-9818-4511-9f68-e4ae09d9ac6a",
+  "ContextTag": "157",
+  "ParentContextTag": "156"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "6950e653-9818-4511-9f68-e4ae09d9ac6a",
+  "ContextTag": "157",
+  "ParentContextTag": "156"
+}
+2021-04-20 04:56:49.6022|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Build RDD|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "afa7cdf2-e2a9-46d5-8fd2-f48db5096823",
+  "ContextTag": "158",
+  "ParentContextTag": "157"
+}
+2021-04-20 04:56:49.6143|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: DataSourceGetFiles|metrics: {"size":543684.0}, properties: {"datasourcePath":"D+XkX/cTW59VfiobND376guXEgHjypvWBmZum53aqdM="}|
+2021-04-20 04:56:49.6143|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "551f4b75-6d03-4c43-a67e-54ed93cdc214",
+  "ContextTag": "138",
+  "ParentContextTag": "137"
+}
+2021-04-20 04:56:49.6143|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "6c361c0c-fce0-4ebe-b30f-07bada140f92",
+  "Main": "MdMFEk14ITlNvhBykZ2bhgKI3Z/jCehrM+AM++hqvyA="
+}
+2021-04-20 04:56:49.6143|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.6473|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "afa7cdf2-e2a9-46d5-8fd2-f48db5096823",
+  "ContextTag": "158",
+  "ParentContextTag": "157"
+}
+2021-04-20 04:56:49.6473|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "cf11d3cf-5f14-4fb5-990a-648e22a13bf6",
+  "Main": "2/GBuplSuzPD0B+CGI+0bJ1E+cBq6MKT60x95CdNl18="
+}
+2021-04-20 04:56:49.6473|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:49.6473|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|QueryCache|Cache added|{
+  "Operation": "WriteFilesOperation",
+  "Reference": "",
+  "Tag": "2dadeabd-c57b-4327-b7f5-195926b728dc",
+  "ContextTag": "148",
+  "ParentContextTag": "147"
+}
+2021-04-20 04:56:49.6473|DEBUG|CLex|11162be4-2d1f-4508-8245-b99e6b1c525b|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "a85501c7-0ddb-4f4d-a60d-0201d360f67b",
+  "Main": "JGuVg5aG0Y++dN7N+crWcBWsZbnrP/d8379xwQhgG4o="
+}
+2021-04-20 04:56:49.6473|DEBUG|Caching|11162be4-2d1f-4508-8245-b99e6b1c525b|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-04-20 04:56:51.0943|INFO|EngineServer|11162be4-2d1f-4508-8245-b99e6b1c525b|HandleRequest|Received request from Python host.|
+2021-04-20 04:56:51.0943|INFO|EngineServer|11162be4-2d1f-4508-8245-b99e6b1c525b|HandleRequest|Processing request from Python host for operation: resolve_datastore.|
+2021-04-20 04:56:51.0943|INFO|DatastoreResolver|11162be4-2d1f-4508-8245-b99e6b1c525b|Resolve|Resolving auth and host for datastore: 6b443b21-01ef-4f24-91c6-70c888c1cb50,azure_trash_demo,azure_trash_demo,workspaceblobstore using python host.|
+2021-04-20 04:56:51.8253|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:56:51.9371|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":110.0,"size":14151.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":128.0,"ratePerThread":128.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:56:51.9381|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:56:51.9660|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:56:51.9755|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":9.0,"size":24466.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":2718.0,"ratePerThread":2718.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:56:51.9755|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:56:51.9996|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:56:52.0104|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":10.0,"size":9808.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":980.0,"ratePerThread":980.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:56:52.0104|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:56:52.0359|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:56:52.0457|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":9.0,"size":13994.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":1554.0,"ratePerThread":1554.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:56:52.0457|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:56:52.0615|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:56:52.0729|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":11.0,"size":12758.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":1159.0,"ratePerThread":1159.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:56:52.0729|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:56:52.1284|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:56:52.1421|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":13.0,"size":49264.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":3789.0,"ratePerThread":3789.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:56:52.1421|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:57:16.7546|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:57:16.7689|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":14.0,"size":9689.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":692.0,"ratePerThread":692.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:57:16.7689|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:57:16.7839|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:57:16.7969|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":12.0,"size":15128.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":1260.0,"ratePerThread":1260.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:57:16.7969|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:57:16.8118|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:57:16.8885|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":76.0,"size":12682.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":166.0,"ratePerThread":166.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:57:16.8885|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:57:16.9328|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:57:16.9622|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":29.0,"size":24750.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":853.0,"ratePerThread":853.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:57:16.9622|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:57:16.9875|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:57:16.9958|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":8.0,"size":21767.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":2720.0,"ratePerThread":2720.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:57:16.9958|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
+2021-04-20 04:57:17.2087|DEBUG|StreamInfoAccessor|11162be4-2d1f-4508-8245-b99e6b1c525b|DownloadSynchronously|Starting download sequentially.|
+2021-04-20 04:57:17.2224|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: FileDownloadedToLocal|metrics: {"duration":13.0,"size":13389.0,"chunksCount":1.0,"parallelismDegree":1.0,"rate":1029.0,"ratePerThread":1029.0}, properties: {"actionName":"DownloadSynchronously"}|
+2021-04-20 04:57:17.2224|DEBUG|Telemetry|11162be4-2d1f-4508-8245-b99e6b1c525b|event: MemoryChunksPoolDisposed|metrics: {"chunksCount":0.0,"chunkSize":1048576.0}, properties: {}|
